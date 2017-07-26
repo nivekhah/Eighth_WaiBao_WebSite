@@ -1,0 +1,106 @@
+.Hui-article-box{
+    background-color: #EFF4F5;
+    padding: 18px 20px 20px 20px;
+}
+.Hui-layout{
+    min-width: 800px;
+}
+.Hui-layout-header{
+    height: 42px;
+}
+.Hui-article-box .layout-header-title{
+    font-size: 16px;
+    line-height: 22px;
+    color: #3d4966;
+    font-weight: 700;
+    margin: 0 10px 0 0;
+    vertical-align: bottom;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.Hui-ul-tab .Hui-ul-tab-li{
+    min-width: 97px;
+    padding: 0 20px;
+    height: 36px;
+    background-color: #e6eff9;
+    color: #3d4966;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.Hui-ul-tab .Hui-ul-tab-li,.Hui-ul-tab-line .Hui-ul-tab-li{
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    float: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Hui-ul-tab .Hui-ul-tab-li.active{
+    background-color: #fff;
+    margin-top: 10px;
+}
+.ng-hide{
+    display: none !important;
+}
+.Hui-article-box .Hui-layout .layout-body{
+    padding: 20px;
+    width: 95%;
+    min-height: 50px;
+    background-color: #fff;
+    margin-top: 46px;
+}
+.channelWeChat .channelWeChat-body{
+    position: relative;
+}
+.channelWeChat .channelWeChat-body .body-footer-center{
+    text-align: center;
+    margin-left: 153px;
+}
+.Hui-sys-code{
+    line-height: 40px;
+    padding: 0 20px;
+    background: #f5f7fc;
+    border: 1px solid #d6dbe5;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    color:rgba(138, 152, 172, 0.98);
+}
+.Hui-j-font-h2{
+    font-size: 14px;
+}
+.Hui-j-font-h1,.Hui-j-font-h2{
+    font-weight: 700;
+    color: #3d4966;
+}
+.Hui-j-font-h3,.Hui-j-font-p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3d4966;
+}
+.Hui-j-font-tips{
+    color: #a6aec2;
+}
+.Hui-j-btn.btn-text{
+    border: 0;
+    background-color: #0daeaf;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+}
+.Hui-j-btn.btn-text:hover{
+    background-color: #0daeae;
+    opacity: 0.6;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.h4,.h5,.h6,h4,h5,h6{
+    margin-bottom: 10px;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{
+    line-height: 1.1;
+}

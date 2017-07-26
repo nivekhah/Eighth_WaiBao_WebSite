@@ -1,0 +1,95 @@
+.mcis-panel{
+	margin: 20px auto;
+	width: 90%;
+}
+
+.mcis-ul{
+	margin: 5px 0 5px 0;
+	height: 170px;
+	width: 100%;
+}
+
+.mcis-li-default{
+	width: 21%;
+	height:70px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.mcis-li-secend{
+	width: 16%;
+	height:70px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.mcis-num-item{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #F4F4F4;
+	height:60px;
+}
+
+.mcis-item{
+	text-align: center;
+	font-size: 18px;
+	background-color: #F4F4F4;
+	height:60px;
+}
+
+.mcis-title-panel{
+	width: 95%;
+	margin: 5px auto;
+}
+
+.mcis-title{
+	font-size: 16px;
+	background-color: #F4F4F4;
+}
+
+.mcis-data-panel{
+	margin: 5px auto;
+	text-align: center;
+	line-height: 400px;
+	font-size: 16px;
+	width: 95%;
+	background-color: white;
+}
+
+.mcis-table-nodata{
+	text-align: center;
+	font-size: 14px;
+}
+.title-font{
+	font-size: 1.2em
+}
+.ques-btn{
+	font-size: 14px;
+    line-height: 12px;
+    padding: 4px 10px;
+    vertical-align: inherit;
+    color: #04c2c2;
+    border-color: #04c2c2;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.pull-right{
+	display: inline-block;
+	float: right;
+    display: block;
+}
+.pull-right a{
+    text-decoration: none;
+}
+.ques-search input{
+	margin-left: -5px;
+	height: 29px;
+	margin-right: -1px;
+}
+.ques-search button{
+	height: 33px;
+}

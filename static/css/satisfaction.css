@@ -1,0 +1,38 @@
+.head
+{
+    width: 1255px;
+    height: auto;
+    background-color:#FCFCFC;
+    margin: 50px 20px;
+    padding: 20px;
+}
+#well
+{
+    margin: 20px;
+    height: 550px;
+
+}
+.p
+{
+    margin: 300px auto;
+    width: 100px;
+    font-size: 20px;
+}
+#well2
+{
+    margin:50px 20px;
+    height: auto;
+}
+#bt
+{
+    float: right;
+    border-color: #c85e0b;
+    color: #c85e0b;
+    background-color: white;
+    vertical-align: middle;
+}
+#tt tr th
+{
+    font-size: 14px;
+    font-weight:inherit;
+}

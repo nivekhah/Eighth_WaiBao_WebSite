@@ -1,0 +1,56 @@
+.mcis-panel{
+	margin: 20px auto;
+	width: 90%;
+	padding-bottom: 25px;
+}
+
+.panel-body > span{
+ 	margin-left: 20px;
+}
+
+
+.mcis-search-input{
+	margin-top: 15px;
+}
+
+.mcis-search-input span{
+	float: left;
+	margin-right: 20px;
+}
+
+.mcis-search-input input.input-text{
+	float: left;
+ 	display: inline-block;
+ 	width: 300px;
+}
+
+.mcis-search-input input.btn{
+	float: left;
+ 	display: inline-block;
+ 	background-color: #09aeb0;
+ 	color: white;
+}
+
+.mcis-panel-title{
+	height: auto;
+	border: none;
+	font-size: 16px;
+}
+
+.mcis-panel-title >span{
+	color: #09aeb0;
+}
+
+.mcis-data-panel{
+	margin: 5px auto;
+	text-align: center;
+	line-height: 400px;
+	font-size: 16px;
+	width: 95%;
+	background-color: white;
+}
+
+table > thead tr td{
+	background-color: #f4f4f4;
+	font-size: 15px;
+}

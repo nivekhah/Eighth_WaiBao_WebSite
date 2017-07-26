@@ -1,0 +1,17 @@
+.head
+{
+    width: 1255px;
+    height: 100px;
+    background-color:#FCFCFC;
+    margin: 50px 20px;
+    padding: 20px;
+}
+#well
+{
+    margin: 20px;
+}
+#tt tr th
+{
+    font-size: 14px;
+    font-weight:inherit;
+}

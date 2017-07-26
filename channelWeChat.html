@@ -1,0 +1,247 @@
+<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="Bookmark" href="favicon.ico" >
+    <link rel="Shortcut Icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="lib/html5.js"></script>
+    <script type="text/javascript" src="lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="static/styleWeChat.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+    <title>微信</title>
+</head>
+<body>
+<!--_header 作为公共模版分离出去-->
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl">
+            <a class="logo navbar-logo f-l mr-10 hidden-xs" href="/aboutHui.shtml">H-ui.admin</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/aboutHui.shtml">H-ui</a>
+            <span class="logo navbar-slogan f-l mr-10 hidden-xs">v3.0</span>
+            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+            <nav class="nav navbar-nav">
+                <ul class="cl">
+                    <li class="dropDown dropDown_hover">
+                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li>
+                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i class="Hui-iconfont">&#xe616;</i> 资讯</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i class="Hui-iconfont">&#xe613;</i> 图片</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i class="Hui-iconfont">&#xe620;</i> 产品</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i class="Hui-iconfont">&#xe60d;</i> 用户</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl">
+                    <li>超级管理员</li>
+                    <li class="dropDown dropDown_hover">
+                        <a href="#" class="dropDown_A">admin <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li><a href="javascript:;" onClick="myselfinfo()">个人信息</a></li>
+                            <li>
+                                <a href="#">切换账户</a>
+                            </li>
+                            <li>
+                                <a href="#">退出</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="Hui-msg">
+                        <a href="#" title="消息">
+                            <span class="badge badge-danger">1</span>
+                            <i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a>
+                    </li>
+                    <li id="Hui-skin" class="dropDown right dropDown_hover">
+                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li>
+                                <a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="blue" title="蓝色">蓝色</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="green" title="绿色">绿色</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="red" title="红色">红色</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="yellow" title="黄色">黄色</a>
+                            </li>
+                            <li><a href="javascript:;" data-val="orange" title="橙色">橙色</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--/_header 作为公共模版分离出去-->
+
+<!--_menu 作为公共模版分离出去-->
+<aside class="Hui-aside">
+    <div class="menu_dropdown bk_2">
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont">&#xe616;</i> 控制台首页<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li>
+                        <a href="reception.html" title="资讯管理">我的接待</a>
+                    </li>
+                    <li>
+                        <a href="servciesGeneral.html" title="在线客服概况">在线客服概况</a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-picture">
+            <dt><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li ><a href="issueManagement.html" title="知识库">问题管理</a></li>
+                    <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
+                    <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 客服<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="onlineService.html" title="在线客服">在线客服</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-comments">
+            <dt><i class="Hui-iconfont">&#xe622;</i> 客户中心<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="customerList.html" title="客户列表">客户列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-member">
+            <dt><i class="Hui-iconfont">&#xe60d;</i> 统计<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="chatRecord.html" title="会话记录">会话记录</a></li>
+                    <li><a href="satisfaction.html" title="满意度评价">满意度评价</a></li>
+                    <li><a href="customeSource.html" title="访问统计">访问统计</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 机器人<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="robotReply.html" title="机器人回答">机器人回答</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-tongji">
+            <dt class="selected"><i class="Hui-iconfont">&#xe61a;</i> 设置<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd style="display:block">
+                <ul>
+                    <li><a href="channelPc.html" title="桌面网站">桌面网站</a></li>
+                    <li class="current"><a href="channelWeChat.html" title="微信">微信</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <div class="dislpayArrow hidden-xs">
+        <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+</aside>
+<div class="dislpayArrow hidden-xs">
+    <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+</div>
+<!--/_menu 作为公共模版分离出去-->
+
+<section class="Hui-article-box">
+    <div class="Hui-layout">
+        <div class="Hui-layout-header">
+            <h2 class="layout-header-title">接入微信</h2>
+        </div>
+        <ul class="Hui-ul-tab">
+            <li class="Hui-ul-tab-li active" id="one">接入配置</li>
+            <li class="Hui-ul-tab-li" id="two">高级设置</li>
+        </ul>
+        <div class="layout-body">
+            <div class="channelWeChat-body" id="channelPc-cont-box">
+                <div class="channel-setting" ng-show="channelWeActiveTab == 0">
+                    <h4 class="Hui-j-font-h2" style="margin-top:0">提供两种方式接入微信</h4>
+                    <h5 class="Hui-j-font-h3" style="margin-top:20px">方式一：通过微信公众号授权接入智能在线客服</h5>
+                    <p class="Hui-j-font-tips">
+                        * 完成部署后，用户可直接在微信公众号的聊天页咨询在线客服，接入过程中若遇到问题，请参考
+                        <a style="text-decoration:none;color:blue" target="_blank" href="#">《智能在线客服接入指南》</a>
+                    </p>
+                    <h5 class="Hui-j-font-h3" style="margin-top:20px">方式二：在微信自定义菜单嵌入移动网站版客服咨询页地址</h5>
+                    <p class="Hui-j-font-tips">
+                        * 为了单独统计微信渠道的访问情况，我们已经在移动网站客服咨询页地址后追加了统计参数，请您使用以下地址，客服应答设置采用移动网站的配置
+                    </p>
+                    <p class="Hui-sys-code ng-binding" style="width:900px" ng-bind="viewDataItem.sysNum">
+                        https://www.sobot.com/chat/h5/index.html?sysNum=511f7939aff540fc90995fc0e3a2beae&source=1
+                    </p>
+                    <h4 class="Hui-j-font-h2" style="margin-top:30px">微信授权接入</h4>
+                    <input class="Hui-j-btn btn-text" style="width:100px" ng-click="insertWeiXin()" type="button"  value="+绑定公众号" />
+                    <span class="Hui-j-font-tips">*最多部署到10个公众号</span>
+                    <table style="margin:20px;width:900px">
+                        <thead>
+                            <tr>
+                                <th>公众号名称</th>
+                                <th>公众号ID</th>
+                                <th>绑定时间</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- ngRepeat: item in viewDataWeItem.items -->
+                        </tbody>
+                    </table>
+                    <div class="body-footer-center" style="width:900px; margin-bottom:20px;" ng-show="viewDataWeItem.items.length == 0">
+                        <p class="Hui-j-font-tips">未绑定微信公众号</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>
