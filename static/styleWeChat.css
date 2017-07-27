@@ -1,3 +1,39 @@
+.slaTag {
+    line-height: 28px;
+    background-color: #FFF9E3;
+    border: 1px solid #F8F1D7;
+    color: #BF862D;
+    padding: 0 10px;
+    /*width: 675px;*/
+}
+.zc-block-code{
+    line-height: 24px;
+    padding: 0 20px;
+    background: #f5f7fc;
+    border: 1px solid #d6dbe5;
+    box-shadow: 0 0 0 0 rgba(0,0,0,.5);
+    color: rgba(138,152,172,.98);
+}
+.zc-j-btn{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #0DAEAF;
+    color: #0DAEAF;
+    background-color: #fff;
+    border-radius: 2px;
+    line-height: 26px;
+    height: 28px;
+    padding: 0 10px;
+    margin: 0;
+    position: relative;
+}
+
+
 .Hui-article-box{
     background-color: #EFF4F5;
     padding: 18px 20px 20px 20px;

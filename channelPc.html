@@ -5,21 +5,22 @@
     <meta charset="utf-8">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="Bookmark" href="favicon.ico" >
-    <link rel="Shortcut Icon" href="favicon.ico" />
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="favicon.ico">
+    <link rel="Shortcut Icon" href="favicon.ico"/>
     <!--[if lt IE 9]>
     <script type="text/javascript" src="lib/html5.js"></script>
     <script type="text/javascript" src="lib/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
-    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/styleWeChat.css"/>
     <!--[if IE 6]>
-    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
     <script>DD_belatedPNG.fix('*');</script><![endif]-->
     <!--/meta 作为公共模版分离出去-->
     <title>桌面网站</title>
@@ -36,19 +37,24 @@
             <nav class="nav navbar-nav">
                 <ul class="cl">
                     <li class="dropDown dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i
+                                class="Hui-iconfont">&#xe6d5;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
-                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i class="Hui-iconfont">&#xe616;</i> 资讯</a>
+                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i
+                                        class="Hui-iconfont">&#xe616;</i> 资讯</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i class="Hui-iconfont">&#xe613;</i> 图片</a>
+                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i
+                                        class="Hui-iconfont">&#xe613;</i> 图片</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i class="Hui-iconfont">&#xe620;</i> 产品</a>
+                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i
+                                        class="Hui-iconfont">&#xe620;</i> 产品</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i class="Hui-iconfont">&#xe60d;</i> 用户</a>
+                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i
+                                        class="Hui-iconfont">&#xe60d;</i> 用户</a>
                             </li>
                         </ul>
                     </li>
@@ -75,7 +81,8 @@
                             <i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a>
                     </li>
                     <li id="Hui-skin" class="dropDown right dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont"
+                                                                                style="font-size:18px">&#xe62a;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
                                 <a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a>
@@ -122,7 +129,7 @@
             <dt><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li ><a href="issueManagement.html" title="知识库">问题管理</a></li>
+                    <li><a href="issueManagement.html" title="知识库">问题管理</a></li>
                     <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
                     <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
@@ -163,7 +170,8 @@
             </dd>
         </dl>
         <dl id="menu-tongji">
-            <dt class="selected"><i class="Hui-iconfont">&#xe61a;</i> 设置<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt class="selected"><i class="Hui-iconfont">&#xe61a;</i> 设置<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
+            </dt>
             <dd style="display:block">
                 <ul>
                     <li class="current"><a href="channelPc.html" title="桌面网站">桌面网站</a></li>
@@ -187,10 +195,44 @@
         设置
         <span class="c-gray en">&gt;</span>
         桌面网站
-        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+           href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
     </nav>
-    <div class="Hui-article" >
+    <div class="Hui-layout">
+        <div class="Hui-layout-header">
+            <h2 class="layout-header-title">接入移动网站</h2>
+        </div>
+        <ul class="Hui-ul-tab">
+            <li class="Hui-ul-tab-li active" id="one">部署代码</li>
+            <li class="Hui-ul-tab-li" id="two">客服设置</li>
+        </ul>
+        <div class="layout-body">
+            <div class="channelWeChat-body" id="channelPc-cont-box">
+                <div class="channel-setting" ng-show="channelWeActiveTab == 0">
+                    <h4 class="Hui-j-font-h2" style="margin-top:0">部署网页组件（推荐）</h4>
+                    <div class="slaTag">网页咨询组件同时支持桌面网站和移动网站，提供强大的用户行为采集能力和系统对接能力</div>
+                    <h5 class="Hui-j-font-h3" style="margin-top:20px">
+                        特性包括：自动识别访客，通过API对接登陆用户身份和资料</h5>
+                    <h5 style=" margin-left: 70px;">自动采集用户访问轨迹，通过API传入自定义访问行为</h5>
+                    <h5 style=" margin-left: 70px;">自动分析网站UTM推广信息，通过API传入自定义UTM信息</h5>
+                    <h5 style=" margin-left: 70px;">通过JS-API根据客服场景灵活调整客服设置</h5>
 
+                    <h5 class="Hui-j-font-h3" style="margin-top:20px">组件代码 :将此代码嵌入到您的网站的<\/body>标签之前，即可完成部署</h5>
+                    <p class="zc-block-code">&lt;script
+                        src="https://www.sobot.com/chat/frame/js/entrance.js?sysNum=2f5111b484324622918418e70fc5a905"
+                        class="zhiCustomBtn" id="zhichiScript"
+                        data-args="属性名1=属性值1&amp;属性名2=属性值2"&gt;&lt;/script&gt;</p>
+                    <a target="_blank" class="zc-j-btn" href="#">预览实际效果</a>
+<br><br>
+                    <h4 class="Hui-j-font-h2" style="margin-top:0">部署聊天链接</h4>
+                    <h5 class="Hui-j-font-h3" style="margin-top:20px">聊天链接 :聊天链接同时支持桌面网站和移动网站，使用以下链接将客服聊天页集成到您的网站</h5>
+                    <p class="zc-block-code">https://www.sobot.com/chat/h5/index.html?sysNum=2f5111b484324622918418e70fc5a905</p>
+                    <a target="_blank" class="zc-j-btn" href="#">打开链接</a>
+                   <br><br> <hr>
+
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -205,7 +247,9 @@
 <script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<style type="text/css" rel="stylesheet">
 
+</style>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>
 </html>

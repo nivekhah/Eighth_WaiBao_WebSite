@@ -5,21 +5,23 @@
     <meta charset="utf-8">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="Bookmark" href="favicon.ico" >
-    <link rel="Shortcut Icon" href="favicon.ico" />
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="favicon.ico">
+    <link rel="Shortcut Icon" href="favicon.ico"/>
     <!--[if lt IE 9]>
     <script type="text/javascript" src="lib/html5.js"></script>
     <script type="text/javascript" src="lib/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
-    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/styleWeChat.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/serviceGeneral.css"/>
     <!--[if IE 6]>
-    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
     <script>DD_belatedPNG.fix('*');</script><![endif]-->
     <!--/meta 作为公共模版分离出去-->
     <title>访问记录</title>
@@ -36,19 +38,24 @@
             <nav class="nav navbar-nav">
                 <ul class="cl">
                     <li class="dropDown dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i
+                                class="Hui-iconfont">&#xe6d5;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
-                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i class="Hui-iconfont">&#xe616;</i> 资讯</a>
+                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i
+                                        class="Hui-iconfont">&#xe616;</i> 资讯</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i class="Hui-iconfont">&#xe613;</i> 图片</a>
+                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i
+                                        class="Hui-iconfont">&#xe613;</i> 图片</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i class="Hui-iconfont">&#xe620;</i> 产品</a>
+                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i
+                                        class="Hui-iconfont">&#xe620;</i> 产品</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i class="Hui-iconfont">&#xe60d;</i> 用户</a>
+                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i
+                                        class="Hui-iconfont">&#xe60d;</i> 用户</a>
                             </li>
                         </ul>
                     </li>
@@ -75,7 +82,8 @@
                             <i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a>
                     </li>
                     <li id="Hui-skin" class="dropDown right dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont"
+                                                                                style="font-size:18px">&#xe62a;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
                                 <a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a>
@@ -122,7 +130,7 @@
             <dt><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li ><a href="issueManagement.html" title="知识库">问题管理</a></li>
+                    <li><a href="issueManagement.html" title="知识库">问题管理</a></li>
                     <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
                     <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
@@ -145,7 +153,8 @@
             </dd>
         </dl>
         <dl id="menu-member">
-            <dt class="selected"><i class="Hui-iconfont">&#xe60d;</i> 统计<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt class="selected"><i class="Hui-iconfont">&#xe60d;</i> 统计<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
+            </dt>
             <dd style="display:block">
                 <ul>
                     <li><a href="chatRecord.html" title="会话记录">会话记录</a></li>
@@ -187,10 +196,112 @@
         统计
         <span class="c-gray en">&gt;</span>
         访问记录
-        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+           href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
     </nav>
-    <div class="Hui-article" >
+    <div class="Hui-article">
+        <div class="Hui-layout">
+            <br>
+            <div class="Hui-layout-header">
+                <h2 class="layout-header-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;访问统计</h2>
+            </div>
+            <ul class="Hui-ul-tab">
+                <li class="Hui-ul-tab-li active" id="one">客户来源统计</li>
+                <li class="Hui-ul-tab-li" id="two">搜索词统计</li>
+                <li class="Hui-ul-tab-li" id="three">受访页面统计</li>
+                <li class="Hui-ul-tab-li" id="four">着陆页面统计</li>
+            </ul>
 
+            <div class="layout-body">
+                <div class="channelWeChat-body" id="channelPc-cont-box">
+                    <div class="channel-setting" ng-show="channelWeActiveTab == 0">
+                        <div class="slaTag">此报表需实时收集用户的访问轨迹进行分析，所以请确认您想分析的页面都已开启浏览轨迹采集功能。</div>
+                        <br>
+
+
+                        <i class="Hui-iconfont">&#xe67d;</i>
+                        日期：
+                        <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})" id="logmin" class="input-text Wdate" style="width:120px;">
+                        -
+                        <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})" id="logmax" class="input-text Wdate" style="width:120px;">
+                        <i class="Hui-iconfont">&#xe63d;</i>
+                        <span class="dropDown">
+                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">咨询渠道<i class="Hui-iconfont">&#xe6d5;</i></button>
+                    <ul class="dropDown-menu menu radius box-shadow">
+                        <li><a href="#">全部</a></li>
+                        <li><a href="#">桌面网站</a></li>
+                        <li><a href="#">移动网站</a> </li>
+                        <li><a href="#">微信</a></li>
+                    </ul>
+            </span>
+                        <span class="dropDown">
+                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">客户来源<i class="Hui-iconfont">&#xe6d5;</i></button>
+                    <ul class="dropDown-menu menu radius box-shadow">
+                        <li><a href="#">全部</a></li>
+                        <li><a href="#">百度自然搜索</a></li>
+                        <li><a href="#">百度付费搜索</a></li>
+                        <li><a href="#">360搜索</a></li>
+                        <li><a href="#">搜狗搜索</a></li>
+                    </ul>
+            </span>
+                        <span class="dropDown">
+                <button class=" btn-default btn radius dropDown_A" id="change" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">地域<i class="Hui-iconfont">&#xe6d5;</i></button>
+                    <ul class="dropDown-menu menu radius box-shadow">
+                        <li ><a href="#">全部</a></li>
+                        <li><a href="#">北京市</a></li>
+                        <li><a href="#">浙江省</a></li>
+                        <li><a href="#">上海市</a></li>
+                        <li><a href="#">广州市</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+            </span>
+                        <button class="btn btn-default radius">查询</button>
+                        <br><br>
+                        <h4 class="Hui-j-font-h2" style="margin-top:0">客户来源统计：</h4>
+                        <div class="panel panel-default mcis-panel">
+                            <div class="panel-body" style="height: 350px;">
+                                <ul class="mcis-ul">
+                                    <li class="mcis-li-default">
+                                        <div class="mcis-num-item">0</div>
+                                        <div class="mcis-item">浏览量（PV）</div>
+                                    </li>
+                                    <li class="mcis-li-default">
+                                        <div class="mcis-num-item">0</div>
+                                        <div class="mcis-item">访客数（UV）</div>
+                                    </li>
+                                    <li class="mcis-li-default">
+                                        <div class="mcis-num-item">0</div>
+                                        <div class="mcis-item">IP数</div>
+                                    </li>
+                                    <li class="mcis-li-default">
+                                        <div class="mcis-num-item">0.00%</div>
+                                        <div class="mcis-item">跳出率</div>
+                                    </li>
+                                    <li class="mcis-li-default" style="margin-top: 100px;">
+                                        <div class="mcis-num-item">0</div>
+                                        <div class="mcis-item">查询客户数</div>
+                                    </li>
+                                    <li class="mcis-li-default" style="margin-top: 100px;">
+                                        <div class="mcis-num-item">0.00%</div>
+                                        <div class="mcis-item">咨询客户转化率</div>
+                                    </li>
+                                    <li class="mcis-li-default" style="margin-top: 100px;">
+                                        <div class="mcis-num-item">0</div>
+                                        <div class="mcis-item">咨询会话数</div>
+                                    </li>
+                                    <li class="mcis-li-default" style="margin-top: 100px;">
+                                        <div class="mcis-num-item">0.00%</div>
+                                        <div class="mcis-item">咨询会话转化率 </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

@@ -5,21 +5,23 @@
     <meta charset="utf-8">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="Bookmark" href="favicon.ico" >
-    <link rel="Shortcut Icon" href="favicon.ico" />
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="favicon.ico">
+    <link rel="Shortcut Icon" href="favicon.ico"/>
     <!--[if lt IE 9]>
     <script type="text/javascript" src="lib/html5.js"></script>
     <script type="text/javascript" src="lib/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
-    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/styleWeChat.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/intelligentLearning.css"/>
     <!--[if IE 6]>
-    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
     <script>DD_belatedPNG.fix('*');</script><![endif]-->
     <!--/meta 作为公共模版分离出去-->
 
@@ -39,19 +41,24 @@
             <nav class="nav navbar-nav">
                 <ul class="cl">
                     <li class="dropDown dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i
+                                class="Hui-iconfont">&#xe6d5;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
-                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i class="Hui-iconfont">&#xe616;</i> 资讯</a>
+                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i
+                                        class="Hui-iconfont">&#xe616;</i> 资讯</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i class="Hui-iconfont">&#xe613;</i> 图片</a>
+                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i
+                                        class="Hui-iconfont">&#xe613;</i> 图片</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i class="Hui-iconfont">&#xe620;</i> 产品</a>
+                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i
+                                        class="Hui-iconfont">&#xe620;</i> 产品</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i class="Hui-iconfont">&#xe60d;</i> 用户</a>
+                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i
+                                        class="Hui-iconfont">&#xe60d;</i> 用户</a>
                             </li>
                         </ul>
                     </li>
@@ -78,7 +85,8 @@
                             <i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a>
                     </li>
                     <li id="Hui-skin" class="dropDown right dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont"
+                                                                                style="font-size:18px">&#xe62a;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
                                 <a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a>
@@ -122,10 +130,11 @@
             </dd>
         </dl>
         <dl id="menu-picture">
-            <dt class="selected"><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt class="selected"><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
+            </dt>
             <dd style="display:block">
                 <ul>
-                    <li ><a href="issueManagement.html" title="知识库">问题管理</a></li>
+                    <li><a href="issueManagement.html" title="知识库">问题管理</a></li>
                     <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
                     <li class="current"><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
@@ -190,10 +199,76 @@
         知识库
         <span class="c-gray en">&gt;</span>
         未知问题学习
-        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+           href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
     </nav>
-    <div class="Hui-article" >
+    <div class="Hui-layout">
+        <div class="Hui-layout-header">
+            <h2 class="layout-header-title">未知问题学习</h2>
+        </div>
+        <ul class="Hui-ul-tab">
+            <li class="Hui-ul-tab-li active" id="one">未知问题学习</li>
+            <li class="Hui-ul-tab-li" id="two">永久忽略</li>
+        </ul>
+        <div class="layout-body">
+            <div class="channelWeChat-body" id="channelPc-cont-box">
+                <div class="channel-setting" ng-show="channelWeActiveTab == 0">
 
+                    <div>
+                    <i class="Hui-iconfont">&#xe67d;</i>
+                    未知问题创建时间：
+                    <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})"
+                           id="logmin" class="input-text Wdate" style="width:120px;">
+                    -
+                    <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})"
+                           id="logmax" class="input-text Wdate" style="width:120px;">
+                    <i class="Hui-iconfont">&#xe63d;</i>
+                </div>
+                    <!--<div>-->
+                    <!--关键字：-->
+                    <!--<select>-->
+                    <!--<option selected>-->
+                    <!--所有类型-->
+                    <!--</option>-->
+                    <!--<option>-->
+                    <!--客服标记-->
+                    <!--</option>-->
+                    <!--<option>-->
+                    <!--机器学习-->
+                    <!--</option>-->
+                    <!--</select>-->
+                    <!--</div>-->
+                    <br><br>
+                    <div class="panel panel-default mcis-panel">
+                        <div class="panel-body mcis-panel-title">
+                            全部问题(共<span>&nbsp;0&nbsp;</span>条记录)
+                        </div>
+
+                        <div class="panel-body">
+                            <table style="white-space: nowrap;width: 99.9%">
+                                <thead>
+                                <tr>
+                                    <td>未知问题</td>
+                                    <td>创建时间</td>
+                                    <td>类型</td>
+                                    <td>操作</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <div class="panel-body mcis-data-panel">
+                                暂无相关数据
+                            </div>
+                        </div>
+                        <div id="page1" style="margin-top:5px; text-align:center;"></div>
+                        <div id="view1" style="padding-top:10px; text-align:center;"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
