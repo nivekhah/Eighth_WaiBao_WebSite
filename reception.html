@@ -5,21 +5,22 @@
     <meta charset="utf-8">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="Bookmark" href="favicon.ico" >
-    <link rel="Shortcut Icon" href="favicon.ico" />
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="favicon.ico">
+    <link rel="Shortcut Icon" href="favicon.ico"/>
     <!--[if lt IE 9]>
     <script type="text/javascript" src="lib/html5.js"></script>
     <script type="text/javascript" src="lib/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
-    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
-    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css"/>
     <!--[if IE 6]>
-    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
     <script>DD_belatedPNG.fix('*');</script><![endif]-->
     <!--/meta 作为公共模版分离出去-->
 
@@ -39,19 +40,24 @@
             <nav class="nav navbar-nav">
                 <ul class="cl">
                     <li class="dropDown dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i
+                                class="Hui-iconfont">&#xe6d5;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
-                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i class="Hui-iconfont">&#xe616;</i> 资讯</a>
+                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i
+                                        class="Hui-iconfont">&#xe616;</i> 资讯</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i class="Hui-iconfont">&#xe613;</i> 图片</a>
+                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i
+                                        class="Hui-iconfont">&#xe613;</i> 图片</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i class="Hui-iconfont">&#xe620;</i> 产品</a>
+                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i
+                                        class="Hui-iconfont">&#xe620;</i> 产品</a>
                             </li>
                             <li>
-                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i class="Hui-iconfont">&#xe60d;</i> 用户</a>
+                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i
+                                        class="Hui-iconfont">&#xe60d;</i> 用户</a>
                             </li>
                         </ul>
                     </li>
@@ -78,7 +84,8 @@
                             <i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a>
                     </li>
                     <li id="Hui-skin" class="dropDown right dropDown_hover">
-                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont"
+                                                                                style="font-size:18px">&#xe62a;</i></a>
                         <ul class="dropDown-menu menu radius box-shadow">
                             <li>
                                 <a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a>
@@ -108,23 +115,24 @@
 <!--_menu 作为公共模版分离出去-->
 <aside class="Hui-aside">
     <div class="menu_dropdown bk_2">
-            <dl id="menu-article">
-                <dt class="selected"><i class="Hui-iconfont">&#xe616;</i> 控制台首页<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
-                <dd style="display:block">
-                    <ul>
-                        <li class="current">
-                            <a href="reception.html" title="资讯管理">我的接待</a>
-                        </li>
-                        <li><a href="servciesGeneral.html" title="在线客服概况">在线客服概况</a></li>
-                    </ul>
-                </dd>
-            </dl>
+        <dl id="menu-article">
+            <dt class="selected"><i class="Hui-iconfont">&#xe616;</i> 控制台首页<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
+            </dt>
+            <dd style="display:block">
+                <ul>
+                    <li class="current">
+                        <a href="reception.html" title="资讯管理">我的接待</a>
+                    </li>
+                    <li><a href="servciesGeneral.html" title="在线客服概况">在线客服概况</a></li>
+                </ul>
+            </dd>
+        </dl>
         <dl id="menu-picture">
             <dt><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
                     <li><a href="issueManagement.html" title="知识库">问题管理</a></li>
-                    <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
+                     <!--<li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>-->
                     <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
             </dd>
@@ -173,38 +181,71 @@
             </dd>
         </dl>
     </div>
-<div class="dislpayArrow hidden-xs">
-    <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
-</div>
-    </aside>
+    <div class="dislpayArrow hidden-xs">
+        <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+</aside>
 <!--/_menu 作为公共模版分离出去-->
 
 <section class="Hui-article-box">
     <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
         <span class="c-gray en">&gt;</span>
         我的接待
-        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+           href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
     </nav>
-    <div class="Hui-article" >
+    <div class="Hui-article">
         <article class="cl pd-20">
             <div class="text-c" style="text-align:left">
                 日期范围：
-                <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})" id="logmin" class="input-text Wdate" style="width:120px;">
+                <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})" id="logmin"
+                       class="input-text Wdate" style="width:120px;">
                 -
-                <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})" id="logmax" class="input-text Wdate" style="width:120px;">
-                <button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 查询</button>
+                <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})"
+                       id="logmax" class="input-text Wdate" style="width:120px;">
+                <button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 查询
+                </button>
             </div>
-            <div class="panel-body">
-                <div class="data" style="margin:20px auto;">
-                    <ul>
-                        <li style="float: left;width: 186px;height:120px;background-color: #09aeb0"><div class="itemBox" style = ''><div style="font-size: 30px;text-align: center;color: white;margin-top: 20px;" >12</div><div class="item-title" style="text-align: center;color: white">接待会话量</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">4.5分</div><div class="item-title" style="text-align: center;color:#09aeb0 ">平均满意度</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">20</div><div class="item-title" style="text-align: center;color:#09aeb0 ">在线时长</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">1min</div><div class="item-title" style="text-align: center;color:#09aeb0 ">平均响应时间</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">5min</div><div class="item-title" style="text-align: center;color:#09aeb0 ">平均接待时间</div></div></li>
-                    </ul>
-                </div>
-            </div>
+            <!--<div class="panel-body">-->
+                <!--<div class="data" style="margin:20px auto;">-->
+                    <!--<ul>-->
+                        <!--<li style="float: left;width: 186px;height:120px;background-color: #09aeb0">-->
+                            <!--<div class="itemBox" style=''>-->
+                                <!--<div style="font-size: 30px;text-align: center;color: white;margin-top: 20px;">12</div>-->
+                                <!--<div class="item-title" style="text-align: center;color: white">接待会话量</div>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                        <!--<li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;">-->
+                            <!--<div class="itemBox" ng-click="itemIndex = $index">-->
+                                <!--<div style="font-size: 30px;text-align: center;margin-top: 20px;"-->
+                                     <!--class="item-num ng-binding"-->
+                                     <!--ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">4.5分-->
+                                <!--</div>-->
+                                <!--<div class="item-title" style="text-align: center;color:#09aeb0 ">平均满意度</div>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                        <!--&lt;!&ndash;<li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">20</div><div class="item-title" style="text-align: center;color:#09aeb0 ">在线时长</div></div></li>&ndash;&gt;-->
+                        <!--<li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;">-->
+                            <!--<div class="itemBox" ng-click="itemIndex = $index">-->
+                                <!--<div style="font-size: 30px;text-align: center;margin-top: 20px;"-->
+                                     <!--class="item-num ng-binding"-->
+                                     <!--ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">1min-->
+                                <!--</div>-->
+                                <!--<div class="item-title" style="text-align: center;color:#09aeb0 ">平均响应时间</div>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                        <!--<li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 25px;">-->
+                            <!--<div class="itemBox" ng-click="itemIndex = $index">-->
+                                <!--<div style="font-size: 30px;text-align: center;margin-top: 20px;"-->
+                                     <!--class="item-num ng-binding"-->
+                                     <!--ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">5min-->
+                                <!--</div>-->
+                                <!--<div class="item-title" style="text-align: center;color:#09aeb0 ">平均接待时间</div>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
         </article>
         <div id="chart-contanier" style="height: 480px;width: 880px;margin-left: 80px"></div>
     </div>
@@ -224,34 +265,74 @@
 <script type="text/javascript" src="lib/echarts/3.4.0/echarts.common.min.js"></script>
 <script type="text/javascript">
     var chart = echarts.init(document.getElementById('chart-contanier'));
-    chart.setOption({
-        title: {
-            text: '今日访客',
-                    left: 'center'
-        },
-        tooltip: {
-            trigger: 'axis',
-                    formatter: '{a} <br/>{b} : {c}'
-        },
-        xAxis: {
-            type: 'category',
-            name: '时间',
-            boundaryGap : false,
-            axisLine: {onZero: true},
-            data: ['00:00', '02:00', '04:00', '06:00', '08:00', '10:00', '12:00', '14:00', '16:00','18:00','20:00','22:00']
-        },
-        yAxis: {
-            type: 'value',
-            name: '人数'
-        },
-        series: [
-            {
-                name: '访客人数',
-                type: 'line',
-                data: [0, 0, 0, 0, 2, 4, 12, 25, 18,6, 2, 0]
-            },
-        ]
-    })
+  var option = {
+      title: {
+          text: '实时数据统计'
+      },
+      tooltip: {
+          trigger: 'axis'
+      },
+      legend: {
+          data:['接待会话量','平均满意度(max=5)','平均响应时间（s）','平均接待时间（min）','访问人数']
+      },
+      grid: {
+          left: '3%',
+          right: '4%',
+          bottom: '3%',
+          containLabel: true
+      },
+      toolbox: {
+          feature: {
+              saveAsImage: {}
+          }
+      },
+      xAxis: {
+          type: 'category',
+          boundaryGap: false,
+          data: ['00:00', '02:00', '04:00', '06:00', '08:00', '10:00', '12:00', '14:00', '16:00','18:00','20:00','22:00']
+      },
+      yAxis: {
+          type: 'value'
+      },
+      formatter: {
+
+      },
+
+      series: [
+          {
+              name:'接待会话量',
+              type:'line',
+              stack: '总量',
+              data:[12,8, 21, 26, 15, 12, 13,17,10,16,12,26]
+          },
+          {
+              name:'平均满意度(max=5)',
+              type:'line',
+              stack: '总量',
+              data:[4.2,4.3, 4.5, 4.1, 4.8, 4.0, 3.5,4.2,4.6,4.8,4.5,4.4]
+          },
+          {
+              name:'平均响应时间（s）',
+              type:'line',
+              stack: '总量',
+              data:[63,60, 25, 45, 33, 56, 60,62,45,38,50,66]
+          },
+          {
+              name:'平均接待时间（min）',
+              type:'line',
+              stack: '总量',
+              data:[2, 5, 4, 5, 6, 2, 3,7,5,6,2,3]
+          },
+          {
+              name:'访问人数',
+              type:'line',
+              stack: '总量',
+              data:[0, 0, 0, 0, 2, 4, 12, 25, 18,6, 2, 0]
+          }
+      ]
+  };
+
+    chart.setOption(option)
 </script>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>

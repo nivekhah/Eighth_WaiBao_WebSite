@@ -124,7 +124,7 @@
             <dd>
                 <ul>
                     <li ><a href="issueManagement.html" title="知识库">问题管理</a></li>
-                    <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
+                     <!--<li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>-->
                     <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
             </dd>
@@ -227,15 +227,8 @@
         <div class="panel panel-default" id="well">
             <div class="panel-header" style="font-size: 15px;font-weight: normal;">人工客服满意度</div>
             <div class="panel-body">
-                <div class="data" style="margin:20px auto;">
-                    <ul>
-                        <li style="float: left;width: 186px;height:120px;background-color: #09aeb0"><div class="itemBox" style = ''><div style="font-size: 30px;text-align: center;color: white;margin-top: 20px;" >0.00</div><div class="item-title" style="text-align: center;color: white">平均分</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 100px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">0</div><div class="item-title" style="text-align: center;color:#09aeb0 ">好评数(5星)</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 100px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">0</div><div class="item-title" style="text-align: center;color:#09aeb0 ">中评数(3-4星)</div></div></li>
-                        <li style="float: left;width: 186px;height:120px;background-color: #F5F5F5;margin-left: 100px;"><div class="itemBox" ng-click="itemIndex = $index"><div style="font-size: 30px;text-align: center;margin-top: 20px;" class="item-num ng-binding" ng-bind="myReceptionData.sessionCount? myReceptionData.sessionCount:'0'">0</div><div class="item-title" style="text-align: center;color:#09aeb0 ">差评数(1-2星)</div></div></li>
-                    </ul>
-                </div>
-                <div class="p">暂无数据</div>
+                <div id="chart-contanier" style="height: 480px;width: 880px"></div>
+
             </div>
         </div>
 
@@ -254,8 +247,14 @@
                         <button class="btn btn-default" style="background-color: transparent;margin-left: 20px;">2星</button>
                         <button class="btn btn-default" style="background-color: transparent;margin-left: 20px;">1星</button>
                     </tr>
-                    <tr>
-                        <th>#</th>
+
+                </table>
+                <br>
+                <table class="table table-border table-bordered table-hover table-bg table-sort">
+                    <thead>
+                    <tr class="text-c">
+                        <th width="25"><input type="checkbox" name="" value=""></th>
+                        <th>序号</th>
                         <th>昵称</th>
                         <th>会话开始时间</th>
                         <th>会话时长</th>
@@ -264,10 +263,72 @@
                         <th>排队时长</th>
                         <th>咨询机器人</th>
                         <th>咨询人工</th>
-                        <th>操作</th>
+                        <th>星级</th>
+                        <th width="90">操作</th>
                     </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr class="text-c">
+                        <td><input type="checkbox" value="1" name=""></td>
+                        <td>1</td>
+                        <td><u style="cursor:pointer" class="text-primary">小木头</u></td>
+                        <td>2017-7-25 16:45:42</td>
+                        <td>5min</td>
+                        <td>小李</td>
+                        <td>是</td>
+                        <td>1min</td>
+                        <td>机器人#23</td>
+                        <td>客服小李</td>
+                        <td>四星</td>
+                        <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                    </tr>
+                    <tr class="text-c">
+                        <td><input type="checkbox" value="1" name=""></td>
+                        <td>2</td>
+                        <td><u style="cursor:pointer" class="text-primary">荷花</u></td>
+                        <td>2017-7-26 17:35:12</td>
+                        <td>4min</td>
+                        <td>小王</td>
+                        <td>是</td>
+                        <td>1.5min</td>
+                        <td>机器人#153</td>
+                        <td>客服小王</td>
+                        <td>五星</td>
+                        <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                    </tr>
+                    <tr class="text-c">
+                        <td><input type="checkbox" value="1" name=""></td>
+                        <td>3</td>
+                        <td><u style="cursor:pointer" class="text-primary">鼠标</u></td>
+                        <td>2017-7-26 18:12:42</td>
+                        <td>3min</td>
+                        <td>无</td>
+                        <td>否</td>
+                        <td>1min</td>
+                        <td>机器人#52</td>
+                        <td>无</td>
+                        <td>三星</td>
+                        <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                    </tr>
+                    <tr class="text-c">
+                        <td><input type="checkbox" value="1" name=""></td>
+                        <td>4</td>
+                        <td><u style="cursor:pointer" class="text-primary">大太阳</u></td>
+                        <td>2017-7-28 9:48:52</td>
+                        <td>6min</td>
+                        <td>小詹</td>
+                        <td>是</td>
+                        <td>1.2min</td>1
+                        <td>机器人#28</td>
+                        <td>客服小詹</td>
+                        <td>四星</td>
+                        <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                    </tr>
+                    </tbody>
                 </table>
-                <div style="margin: 10px auto;width: 100px;color: grey;">暂无用户数据</div>
+
+
             </div>
         </div>
     </div>
@@ -285,7 +346,54 @@
 <script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
 
-<script type="text/javascript" src="static/js/satisfaction.js"></script>
+<script type="text/javascript" src="lib/echarts/3.4.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+    var chart = echarts.init(document.getElementById('chart-contanier'));
+    option = {
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        legend: {
+            x : 'center',
+            y : 'bottom',
+            data:['5星','','4星','3星','2星','1星']
+        },
+        toolbox: {
+            show : true,
+            feature : {
+                mark : {show: true},
+                dataView : {show: true, readOnly: false},
+                magicType : {
+                    show: true,
+                    type: ['pie', 'funnel']
+                },
+                restore : {show: true},
+                saveAsImage : {show: true}
+            }
+        },
+        calculable : true,
+        series : [
+
+            {
+                name:'评价',
+                type:'pie',
+                radius : [30, 110],
+                center : ['75%', '50%'],
+                roseType : 'area',
+                data:[
+                    {value:35, name:'5星'},
+                    {value:32, name:'4星'},
+                    {value:18, name:'3星'},
+                    {value:10, name:'2星'},
+                    {value:5, name:'1星'}
+                ]
+            }
+        ]
+    };
+
+    chart.setOption(option)
+</script>
 <!--/请在上方写此页面业务相关的脚本-->
 </body>
 </html>

@@ -124,7 +124,7 @@
             <dd>
                 <ul>
                     <li ><a href="issueManagement.html" title="知识库">问题管理</a></li>
-                    <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
+                     <!--<li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>-->
                     <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
             </dd>
@@ -191,14 +191,16 @@
         <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
     </nav>
     <div class="Hui-article" style="background-color: #F4F4F4">
-        <div class="head">
-            <i class="Hui-iconfont">&#xe67d;</i>
-                日期：
-                <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})" id="logmin" class="input-text Wdate" style="width:120px;">
-                 -
-                <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})" id="logmax" class="input-text Wdate" style="width:120px;">
-            <i class="Hui-iconfont">&#xe63d;</i>
-            <span class="dropDown" style="margin: 10px;">
+
+
+
+
+    <div class="panel panel-default mcis-panel">
+        <div class="panel-body">
+
+            <div class="panel mcis-title-panel ">
+                <div class="panel-body mcis-title">
+                            <span class="dropDown" style="margin: 10px;">
                 <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">用户来源<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">所有来源</a></li>
@@ -208,7 +210,7 @@
                         <li><a href="#">APP</a></li>
                     </ul>
             </span>
-            <span class="dropDown" style="margin: 10px;">
+                    <span class="dropDown" style="margin: 10px;">
                 <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">排队情况<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">所有情况</a></li>
@@ -217,57 +219,24 @@
                         <li><a href="#">接人工未排队</a></li>
                     </ul>
             </span>
-            <span class="dropDown" style="margin: 10px;">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">会话有效性<i class="Hui-iconfont">&#xe6d5;</i></button>
-                    <ul class="dropDown-menu menu radius box-shadow">
-                        <li><a href="#">人工有效接待电话</a></li>
-                        <li><a href="#">有效电话</a></li>
-                        <li><a href="#">无效电话</a> </li>
-                        <li><a href="#">全部电话</a></li>
-                    </ul>
-            </span>
-            <span class="dropDown" style="margin: 10px;">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">接入技能组<i class="Hui-iconfont">&#xe6d5;</i></button>
-                    <ul class="dropDown-menu menu radius box-shadow">
-                        <li><a href="#">所有技能组</a></li>
-                    </ul>
-            </span>
-            <span class="dropDown" style="margin: 10px;">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">会话结束方式<i class="Hui-iconfont">&#xe6d5;</i></button>
-                    <ul class="dropDown-menu menu radius box-shadow">
-                        <li><a href="#">所有结束方式</a></li>
-                        <li><a href="#">客服下线</a></li>
-                        <li><a href="#">被客服移除</a> </li>
-                        <li><a href="#">加入黑名单</a></li>
-                        <li><a href="#">访客超时</a></li>
-                        <li><a href="#">访客下线</a></li>
-                    </ul>
-            </span>
-            <span class="dropDown" style="margin: 10px;">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">接入人工是否成功<i class="Hui-iconfont">&#xe6d5;</i></button>
-                    <ul class="dropDown-menu menu radius box-shadow">
-                        <li><a href="#">接入人工成功及失败</a></li>
-                        <li><a href="#">接入人工成功</a></li>
-                        <li><a href="#">接入人工失败</a> </li>
-                    </ul>
-            </span>
-            <span class="dropDown" style="margin: 10px;">
+
+                    <span class="dropDown" style="margin: 10px;">
                 <button class=" btn-default btn radius dropDown_A" id="change" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">最后接待<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li onclick="all();"><a href="#">所有客服</a></li>
                         <li><a href="#"><input type="checkbox" id="checkbox-1">机器人</a></li>
-                        <li><a href="#"><input type="checkbox" id="checkbox-2">lhl</a></li>
+                        <li><a href="#"><input type="checkbox" id="checkbox-2">小李</a></li>
                     </ul>
             </span>
-            <span class="dropDown" style="margin: 10px;">
+                    <span class="dropDown" style="margin: 10px;">
                 <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">会话内容<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">会话内容</a></li>
                         <li><a href="#">会话ID</a></li>
                     </ul>
             </span>
-            <input type="text" placeholder="按会话内容筛选" class="input-text" style="width: 150px;">
-            <span class="dropDown" style="margin: 10px;">
+                    <input type="text" placeholder="按会话内容筛选" class="input-text" style="width: 150px;">
+                    <span class="dropDown" style="margin: 10px;">
                 <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">用户对接ID<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">用户对接ID</a></li>
@@ -277,8 +246,8 @@
                         <li><a href="#">params</a></li>
                     </ul>
             </span>
-            <input type="text" placeholder="按用户ID对接" class="input-text" style="width: 150px;">
-            <span class="dropDown" style="margin: 10px;">
+                    <input type="text" placeholder="按用户ID对接" class="input-text" style="width: 150px;">
+                    <span class="dropDown" style="margin: 10px;">
                 <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">处理状态<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">所有状态</a></li>
@@ -286,38 +255,97 @@
                         <li><a href="#">未解决</a></li>
                     </ul>
             </span>
-            <span class="dropDown" style="margin: 10px;">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">所属业务<i class="Hui-iconfont">&#xe6d5;</i></button>
-                    <ul class="dropDown-menu menu radius box-shadow">
-                        <li><a href="#">所有单元业务</a></li>
-                    </ul>
-            </span>
-            <button class="btn btn-default radius">查询</button>
-        </div>
 
-        <div class="panel panel-default" id="well">
-            <div class="panel-header" style="font-size: 15px;font-weight: normal;">会话记录</div>
-            <div class="panel-body">
-                <table class="table" id="tt">
-                    <tr>
-                        <th>#</th>
-                        <th>昵称</th>
-                        <th>会话开始时间</th>
-                        <th>会话时长</th>
-                        <th>最后接待客服</th>
-                        <th>点击转人工</th>
-                        <th>排队时长</th>
-                        <th>咨询机器人</th>
-                        <th>咨询人工</th>
-                        <th>操作</th>
-                    </tr>
-                </table>
-                <div style="margin: 10px auto;width: 100px;color: grey;">暂无用户数据</div>
+                    <button class="btn btn-default radius">查询</button>
+                </div>
             </div>
-        </div>
+
+            <div class="panel panel-default" id="well">
+                <div class="panel-header" style="font-size: 15px;font-weight: normal;">会话记录</div>
+                <div class="panel-body">
+
+                    <table class="table table-border table-bordered table-hover table-bg table-sort">
+                        <thead>
+                        <tr class="text-c">
+                            <th width="25"><input type="checkbox" name="" value=""></th>
+                            <th width="80">序号</th>
+                            <th width="100">用户来源</th>
+                            <th width="40">排队情况</th>
+                            <th width="90">最后接待</th>
+                            <th width="90">会话内容</th>
+                            <th width="90">用户对接id</th>
+                            <th width="90">处理状态</th>
+                            <th width="90"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr class="text-c">
+                            <td><input type="checkbox" value="1" name=""></td>
+                            <td>1</td>
+                            <td><u style="cursor:pointer" class="text-primary">桌面网站</u></td>
+                            <td>未接人工</td>
+                            <td>机器人</td>
+                            <td>15</td>
+                            <td>12</td>
+                            <td>已解决</td>
+                            <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                        </tr>
+                        <tr class="text-c">
+                            <td><input type="checkbox" value="1" name=""></td>
+                            <td>2</td>
+                            <td><u style="cursor:pointer" class="text-primary">微信</u></td>
+                            <td>未接人工</td>
+                            <td>机器人</td>
+                            <td>18</td>
+                            <td>11</td>
+                            <td>已解决</td>
+                            <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                        </tr>
+                        <tr class="text-c">
+                            <td><input type="checkbox" value="1" name=""></td>
+                            <td>3</td>
+                            <td><u style="cursor:pointer" class="text-primary">微信</u></td>
+                            <td>未接人工</td>
+                            <td>机器人</td>
+                            <td>19</td>
+                            <td>12</td>
+                            <td>已解决</td>
+                            <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                        </tr>
+                        <tr class="text-c">
+                            <td><input type="checkbox" value="1" name=""></td>
+                            <td>4</td>
+                            <td><u style="cursor:pointer" class="text-primary">移动网站</u></td>
+                            <td>未接人工</td>
+                            <td>机器人</td>
+                            <td>20</td>
+                            <td>15</td>
+                            <td>已解决</td>
+                            <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                        </tr>
+                        <tr class="text-c">
+                            <td><input type="checkbox" value="1" name=""></td>
+                            <td>5</td>
+                            <td><u style="cursor:pointer" class="text-primary">移动网站</u></td>
+                            <td>接人工排队</td>
+                            <td>小李</td>
+                            <td>22</td>
+                            <td>1</td>
+                            <td>已解决</td>
+                            <td class="td-manage"><a style="text-decoration:none" onClick="member_stop(this,'10001')" href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="change_password('修改密码','change-password.html','10001','600','270')" href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div></div>
+            <!--<div id="chart-contanier2" style="height: 480px;width: 880px;margin-left: 80px"></div>-->
+            <!--<div class="panel mcis-data-panel ">-->
+            <!--<div class="panel-body">暂无数据</div>-->
+            <!--</div>-->
+
 
         </div>
-        </article>
     </div>
 </section>
 
@@ -334,7 +362,6 @@
 <script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
 
 <script type="text/javascript" src="static/js/chatRecord.js"></script>
-
 <!--/请在上方写此页面业务相关的脚本-->
 </body>
 </html>

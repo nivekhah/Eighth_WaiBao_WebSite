@@ -131,7 +131,7 @@
             <dd>
                 <ul>
                     <li><a href="issueManagement.html" title="知识库">问题管理</a></li>
-                    <li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>
+                    <!--<li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>-->
                     <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
                 </ul>
             </dd>
@@ -221,12 +221,15 @@
 
                         <i class="Hui-iconfont">&#xe67d;</i>
                         日期：
-                        <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})" id="logmin" class="input-text Wdate" style="width:120px;">
+                        <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})"
+                               id="logmin" class="input-text Wdate" style="width:120px;">
                         -
-                        <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})" id="logmax" class="input-text Wdate" style="width:120px;">
+                        <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})"
+                               id="logmax" class="input-text Wdate" style="width:120px;">
                         <i class="Hui-iconfont">&#xe63d;</i>
                         <span class="dropDown">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">咨询渠道<i class="Hui-iconfont">&#xe6d5;</i></button>
+                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">咨询渠道<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">全部</a></li>
                         <li><a href="#">桌面网站</a></li>
@@ -235,7 +238,8 @@
                     </ul>
             </span>
                         <span class="dropDown">
-                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">客户来源<i class="Hui-iconfont">&#xe6d5;</i></button>
+                <button class=" btn-default btn radius dropDown_A" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">客户来源<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
                         <li><a href="#">全部</a></li>
                         <li><a href="#">百度自然搜索</a></li>
@@ -245,9 +249,10 @@
                     </ul>
             </span>
                         <span class="dropDown">
-                <button class=" btn-default btn radius dropDown_A" id="change" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">地域<i class="Hui-iconfont">&#xe6d5;</i></button>
+                <button class=" btn-default btn radius dropDown_A" id="change" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">地域<i class="Hui-iconfont">&#xe6d5;</i></button>
                     <ul class="dropDown-menu menu radius box-shadow">
-                        <li ><a href="#">全部</a></li>
+                        <li><a href="#">全部</a></li>
                         <li><a href="#">北京市</a></li>
                         <li><a href="#">浙江省</a></li>
                         <li><a href="#">上海市</a></li>
@@ -259,43 +264,8 @@
                         <br><br>
                         <h4 class="Hui-j-font-h2" style="margin-top:0">客户来源统计：</h4>
                         <div class="panel panel-default mcis-panel">
-                            <div class="panel-body" style="height: 350px;">
-                                <ul class="mcis-ul">
-                                    <li class="mcis-li-default">
-                                        <div class="mcis-num-item">0</div>
-                                        <div class="mcis-item">浏览量（PV）</div>
-                                    </li>
-                                    <li class="mcis-li-default">
-                                        <div class="mcis-num-item">0</div>
-                                        <div class="mcis-item">访客数（UV）</div>
-                                    </li>
-                                    <li class="mcis-li-default">
-                                        <div class="mcis-num-item">0</div>
-                                        <div class="mcis-item">IP数</div>
-                                    </li>
-                                    <li class="mcis-li-default">
-                                        <div class="mcis-num-item">0.00%</div>
-                                        <div class="mcis-item">跳出率</div>
-                                    </li>
-                                    <li class="mcis-li-default" style="margin-top: 100px;">
-                                        <div class="mcis-num-item">0</div>
-                                        <div class="mcis-item">查询客户数</div>
-                                    </li>
-                                    <li class="mcis-li-default" style="margin-top: 100px;">
-                                        <div class="mcis-num-item">0.00%</div>
-                                        <div class="mcis-item">咨询客户转化率</div>
-                                    </li>
-                                    <li class="mcis-li-default" style="margin-top: 100px;">
-                                        <div class="mcis-num-item">0</div>
-                                        <div class="mcis-item">咨询会话数</div>
-                                    </li>
-                                    <li class="mcis-li-default" style="margin-top: 100px;">
-                                        <div class="mcis-num-item">0.00%</div>
-                                        <div class="mcis-item">咨询会话转化率 </div>
-                                    </li>
-                                </ul>
+                            <div id="chart-contanier2" style="height: 480px;width: 880px;margin-left: 80px"></div>
 
-                            </div>
                         </div>
 
                     </div>
@@ -316,6 +286,79 @@
 <script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script>
 <script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="lib/echarts/3.4.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+
+
+    var chart2 = echarts.init(document.getElementById('chart-contanier2'));
+    var option = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'cross',
+                crossStyle: {
+                    color: '#999'
+                }
+            }
+        },
+        toolbox: {
+            feature: {
+                dataView: {show: true, readOnly: false},
+                magicType: {show: true, type: ['line', 'bar']},
+                restore: {show: true},
+                saveAsImage: {show: true}
+            }
+        },
+        legend: {
+            data: ['浏览量', '访客数', 'ip数']
+        },
+        xAxis: [
+            {
+                type: 'category',
+                data: ['7月1日', '7月2日', '7月3日', '7月4日', '7月5日', '7月6日'],
+                axisPointer: {
+                    type: 'shadow'
+                }
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                name: '数目',
+                min: 0,
+
+
+                axisLabel: {
+                    formatter: '{value} 人'
+                }
+            }
+        ],
+        series: [
+            {
+                name: '浏览量',
+                type: 'bar',
+                data: [560,867,456,120,1000,885]
+            },
+            {
+                name: '访客数',
+                type: 'bar',
+                data: [872,444,526,120,300,425]
+            },
+            {
+                name: 'ip数',
+                type: 'bar',
+                data: [230,124,356,268,320,305]
+            },
+//            {
+//                name: 'ip数',
+//                type: 'line',
+//                yAxisIndex: 1,
+//                data: [2.0, 2.2, 3.3, 4.5, 6.3, 10.2, 20.3, 23.4, 23.0, 16.5, 12.0, 6.2]
+//            }
+        ]
+    };
+    chart2.setOption(option)
+</script>
 
 <!--/请在上方写此页面业务相关的脚本-->
 </body>
