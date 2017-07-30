@@ -564,6 +564,12 @@
         <div style="color: #fff;">为您服务</div>
         <div>X</div>
     </div>
+    <div id="chat-zhong" class="chat-zhong">
+
+    </div>
+    <div id="chat-wei" class="chat-wei">
+
+    </div>
 </div>
 <button class="btn btn-primary" id="talk" style=" position:fixed;right:80px;bottom:50px;z-index:9999"
         title="Click To Talk"><i
@@ -609,6 +615,28 @@
         margin-top: 10px;
         margin-left: 10px;
 
+    }
+    .chat-zhong{
+        width: auto;
+        overflow: auto;
+        overflow-x: hidden;
+        min-height: 270px;
+        background: #fafdff;
+        margin: 0;
+        padding: 0 20px 10px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+    .chat-wei{
+        display: block;
+        border-top: 1px solid #ebeff0;
+        box-sizing: border-box;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        background: #fff;
+        z-index: 100;
+        height: 70px;
     }
 </style>
 <script type="text/javascript" src="js/jquery.js"></script>
