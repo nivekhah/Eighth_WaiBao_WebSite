@@ -558,11 +558,19 @@
 <div id="tanhuakuang" hidden class="chatwai">
     <div id="chat-tou" class="chat-tou">
         <img id="char-img" class="img-circle" src="images/chat/robot.png">
-        <div class="chat-title" id="chat-title">
+        <div class="chat-title" id="chat-title" style="display:inline;">
+		<span style="">
             智能机器人#52
+		</span>
+		<span style="position:absolute;top:38px;left:70px;">
+			为您服务
+		</span>
         </div>
-        <div style="color: #fff;">为您服务</div>
-        <div>X</div>
+		 <div style="display:inline;float:right;color:white;margin:10px;">X</div>
+
+       <!-- <div style="color: #fff;display:inline;"></div> -->
+		
+       
     </div>
     <div id="chat-zhong" class="chat-zhong">
 
@@ -596,6 +604,7 @@
         z-index: 9999;
         margin-left: -20px;
         margin-right: -30px;
+		box-shadow:rgba(136, 136, 136, 0.3) -3px 4px 3px;
     }
 
     .chat-tou {
@@ -604,7 +613,7 @@
     }
 
     .chat-title {
-        margin-left: 70px;
+        margin-left: 5px;
         color: #fff;
     }
 
