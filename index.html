@@ -64,7 +64,7 @@
             </button>
             <a class="navbar-brand" href="#">
                 <img src="images/logo1.png" alt="">
-                <img src="images/logo22.png" alt="">
+                <!--<img src="images/logo22.png" alt="">-->
             </a>
         </div>
         <!--Navbar header End-->
@@ -262,10 +262,12 @@
                 <div class="col-md-3 col-xs-12 col-sm-6">
                     <div class="feature_content">
                         <!-- <i class="fa fa-desktop"></i> -->
-                        <h3>工单系统</h3>
-                        <p>推动全公司协同处理客户问题，提升解决率
-                            <br> 多重自定义字段-用户主动发起工单-全流程督促处理-多维度统计报表
+                        <h3>知识库</h3>
+                        <p>智能学习完善知识库
+                            <br> 多重自定义字段-标准答案-关键字匹配
                         </p>
+                        <br> <br>
+
                         <button class="btn btn-main"> Read More</button>
                     </div>
                 </div>
@@ -555,12 +557,30 @@
 </section>
 <!-- Footer Area Start -->
 <!-- Back To Top Button -->
+
 <div id="tanhuakuang" hidden class="chatwai">
+    <div id="chat-fugai"
+         style="display: none;width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: rgba(31,48,51,.5);z-index: 120;">
+        <div id="chat-fankui" style="background-color: white;height: 230px;margin-top: 80px;">
+            <br>
+            <p id="chat-zjtext"
+               style=" text-align: center;  clear: both;margin: 30px 0; color: #555556; font-size: 15px;">
+                xxxxxxxxxxx</p>
+            <button type="button" id="btn-ok" class="btn btn-info" style="margin-left: 50px;margin-right: 30px;">已解决</button>
+            <button type="button" id="btn-no" class="btn btn-default" style="margin-left: 30px;">未解决</button>
+            <br>
+            <button type="button" id="btn-sub" class="btn  btn-info btn-block "
+                    style="width: 222px; margin-top: 20px; margin-left: 40px;">完成反馈
+            </button>
+        </div>
+    </div>
+
+
     <div id="chat-tou" class="chat-tou">
         <img id="char-img" class="img-circle" src="images/chat/robot.png">
         <div class="chat-title" id="chat-title" style="display:inline;">
-		<span style="">
-            智能机器人#52
+		<span style="" id="chat-xiaozio">
+            智能机器人小智
 		</span>
             <span style="position:absolute;top:38px;left:70px;">
 			为您服务
@@ -572,18 +592,17 @@
 
 
     </div>
-    <div id="convo" class="chat-zhong " data-from="Sonu Joshi">
-        <ul class="chat-thread" id="chat-list" style="margin-left: 5px;margin-right: 0px; padding-right: 5px; margin-top: 5px;width: 300px; height: 250px;
-">
-            <li>你好，欢迎使用MCIS智能客服系统，我是智能机器人#52，有什么可以为您服务的吗？</li>
+    <div id="convo" class="chat-zhong " style="overflow-y:scroll " data-from="Sonu Joshi">
+        <ul class="chat-thread" id="chat-list"
+            style="margin-left: 5px;margin-right: 0px; padding-right: 5px; margin-top: 5px;width: 275px; height: 250px;">
+            <li>你好，欢迎使用MCIS智能客服系统，我是智能机器人小智，有什么可以为您服务的吗？为您推荐以下信息，输入关键字进行回复：功能、多渠道、付费...</li>
 
         </ul>
     </div>
     <div id="chat-gongju" class="chat-gongju">
         <img src="images/chat/chat-mail.png" id="chat-mail" style="max-width:25px;position:absolute;left:5px;">
         <img src="images/chat/star.png" id="chat-xing" style="max-width:23px;margin-left:45px;">
-        <div style="max-width:60px;margin-left:70px;margin-top: -20px;margin-left: 235px; color: rgb(19, 201, 203);">
-            人工服务
+        <div id="chat-rg" style="max-width:60px;margin-top: -20px;margin-left: 235px; color: rgb(19, 201, 203);">人工服务
         </div>
     </div>
     <div id="chat-wei" class="chat-wei">
@@ -706,6 +725,16 @@
 <!--<script src="js/jquery-2.2.4.js"></script>-->
 <script>
     jQuery(function () {
+        jQuery('#btn-no').click(function(){
+            jQuery('#btn-no').removeClass("btn-default")
+            jQuery('#btn-no').addClass("btn-info")
+            jQuery('#btn-ok').removeClass("btn-info")
+            jQuery('#btn-ok').addClass("btn-default")
+        })
+        jQuery('#btn-sub').click(function(){
+            jQuery('#chat-fugai').hide()
+            jQuery('#tanhuakuang').toggle()
+        })
         jQuery('#loginBtn').click(function () {
             if (jQuery('#username').val() == 'admin')
                 location.href = '/waibao.github.io/reception.html'
@@ -718,17 +747,37 @@
         jQuery('#chacha').click(function () {
             jQuery('#tanhuakuang').toggle()
         })
+        jQuery('#chat-rg').click(function () {
+            jQuery("#chat-list li").remove();
+            jQuery('#chat-list').append('<li>您好，我是客服人员小王，编号#563，请问有什么可以为您效劳的？</li>')
+            jQuery('#chat-rg').text('#563')
+            jQuery('#chat-xiaozio').text('人工客服小王')
+        })
+        jQuery('#chat-xing').click(function () {
+            jQuery('#chat-fugai').show()
+//            jQuery('#chat-fankui').show()
+            jQuery('#chat-zjtext').text(jQuery('#chat-xiaozio').text() + '是否解决了您的问题？')
+        })
         jQuery('#chat-submit').click(function () {
             var te = jQuery('#chat-te').val()
+
             if (te != '') {
                 jQuery('#chat-list').append('<li>' + te + '</li>')
-                if (te.indexOf('你好') >= 0) {
+                if (te.indexOf('你好') >= 0 || te.indexOf('您好') >= 0) {
                     jQuery('#chat-list').append('<li>您好，请问有什么可以为您效劳的？</li>')
                 }
-              else  if (te.indexOf('功能') >= 0) {
-                    jQuery('#chat-list').append('<li>智齿客服包含机器人客服，人工客服，工单，呼叫中心，知识库管理，智能学习，数据分析与统计，用户管理，语音通话，APP客户端和分渠道设置等功能。注册立即拥有15天功能体验。根据您的问题，为您推荐以下关联问题，点击或回复序号即可得到对应问题的答案：1. 机器人客服2. 马上试用</li>')
+                else if (te.indexOf('功能') >= 0) {
+                    jQuery('#chat-list').append('<li>MCIS包含机器人客服，人工客服，知识库管理，智能学习，数据分析与统计，用户管理,分渠道设置等功能。</li>')
+                }
+                else if (te.indexOf('多渠道') >= 0) {
+                    jQuery('#chat-list').append('<li>MCIS现已整合移动端网页、桌面网页、微信端接口，更多渠道将在后续开放，感谢您的使用~</li>')
+                }
+                else {
+                    jQuery('#chat-list').append('<li>不好意思，我没理解您的问题，小智会抓紧时间学习的，您可以选择点击下方\'人工服务\'寻求帮助~~</li>')
                 }
             }
+            var div = document.getElementById('chat-list');
+            div.scrollTop = div.scrollHeight
 
         })
     })
