@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="images/chat/style.css">
     <!-- login -->
     <link rel="stylesheet" href="css/signin.css"/>
 </head>
@@ -562,26 +562,35 @@
 		<span style="">
             智能机器人#52
 		</span>
-		<span style="position:absolute;top:38px;left:70px;">
+            <span style="position:absolute;top:38px;left:70px;">
 			为您服务
 		</span>
         </div>
-		 <div style="display:inline;float:right;color:white;margin:10px;">X</div>
+        <div id="chacha" style="display:inline;float:right;color:white;margin:10px;">X</div>
 
-       <!-- <div style="color: #fff;display:inline;"></div> -->
-		
-       
+        <!-- <div style="color: #fff;display:inline;"></div> -->
+
+
     </div>
-    <div id="chat-zhong" class="chat-zhong">
+    <div id="convo" class="chat-zhong " data-from="Sonu Joshi">
+        <ul class="chat-thread" id="chat-list" style="margin-left: 5px;margin-right: 0px; padding-right: 5px; margin-top: 5px;width: 300px; height: 250px;
+">
+            <li>你好，欢迎使用MCIS智能客服系统，我是智能机器人#52，有什么可以为您服务的吗？</li>
 
+        </ul>
     </div>
     <div id="chat-gongju" class="chat-gongju">
-      <img src="images/chat/chat-mail.png" id="chat-mail" style="max-width:30px;position:absolute;left:5px;">
-        <img src="images/chat/star.png" id="chat-xing" style="max-width:26px;margin-left:45px;">
-        <h2>人工服务</h2>
+        <img src="images/chat/chat-mail.png" id="chat-mail" style="max-width:25px;position:absolute;left:5px;">
+        <img src="images/chat/star.png" id="chat-xing" style="max-width:23px;margin-left:45px;">
+        <div style="max-width:60px;margin-left:70px;margin-top: -20px;margin-left: 235px; color: rgb(19, 201, 203);">
+            人工服务
+        </div>
     </div>
     <div id="chat-wei" class="chat-wei">
-
+        <textarea id="chat-te"
+                  style="resize:none;width: 246px;height: 52px;BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid;"></textarea>
+        <img src="images/chat/submit.png" id="chat-submit" style="width: 40px; height: 40px; margin-left: 250px; margin-top: -85px;
+">
     </div>
 </div>
 <button class="btn btn-primary" id="talk" style=" position:fixed;right:80px;bottom:50px;z-index:9999"
@@ -600,7 +609,7 @@
 <!-- Main jquery -->
 <style type="text/css" rel="stylesheet">
     .chatwai {
-        background-color: red;
+        background-color: white;
         width: 300px;
         height: 400px;
         position: fixed;
@@ -609,11 +618,11 @@
         z-index: 9999;
         margin-left: -20px;
         margin-right: -30px;
-		box-shadow:rgba(136, 136, 136, 0.3) -3px 4px 3px;
+        box-shadow: rgba(136, 136, 136, 0.3) -3px 4px 3px;
     }
 
     .chat-tou {
-        background-color: blue;
+        background-color: #57ddda;
         height: 60px;
     }
 
@@ -630,7 +639,8 @@
         margin-left: 10px;
 
     }
-    .chat-zhong{
+
+    .chat-zhong {
         width: auto;
         overflow: auto;
         overflow-x: hidden;
@@ -640,11 +650,17 @@
         padding: 0 20px 10px;
         box-sizing: border-box;
         font-size: 12px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+
     }
-    .chat-gongju{
-        height: 20px;
+
+    .chat-gongju {
+        height: 27px;
     }
-    .chat-wei{
+
+    .chat-wei {
         display: block;
         border-top: 1px solid #ebeff0;
         box-sizing: border-box;
@@ -653,7 +669,7 @@
         bottom: 0;
         background: #fff;
         z-index: 100;
-        height: 60px;
+        height: 55px;
     }
 </style>
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -698,6 +714,22 @@
         })
         jQuery('#talk').click(function () {
             jQuery('#tanhuakuang').toggle()
+        })
+        jQuery('#chacha').click(function () {
+            jQuery('#tanhuakuang').toggle()
+        })
+        jQuery('#chat-submit').click(function () {
+            var te = jQuery('#chat-te').val()
+            if (te != '') {
+                jQuery('#chat-list').append('<li>' + te + '</li>')
+                if (te.indexOf('你好') >= 0) {
+                    jQuery('#chat-list').append('<li>您好，请问有什么可以为您效劳的？</li>')
+                }
+              else  if (te.indexOf('功能') >= 0) {
+                    jQuery('#chat-list').append('<li>智齿客服包含机器人客服，人工客服，工单，呼叫中心，知识库管理，智能学习，数据分析与统计，用户管理，语音通话，APP客户端和分渠道设置等功能。注册立即拥有15天功能体验。根据您的问题，为您推荐以下关联问题，点击或回复序号即可得到对应问题的答案：1. 机器人客服2. 马上试用</li>')
+                }
+            }
+
         })
     })
 </script>
