@@ -1,10 +1,428 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="favicon.ico">
+    <link rel="Shortcut Icon" href="favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="lib/html5.js"></script>
+    <script type="text/javascript" src="lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css"/>
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>广告详情</title>
+    <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
 </head>
 <body>
-广告
+<!--_header 作为公共模版分离出去-->
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl">
+            <a class="logo navbar-logo f-l mr-10 hidden-xs" href="/aboutHui.shtml">MCIS后台管理</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs" href="/aboutHui.shtml">H-ui</a>
+            <span class="logo navbar-slogan f-l mr-10 hidden-xs">v3.0</span>
+            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+            <nav class="nav navbar-nav">
+                <ul class="cl">
+                    <li class="dropDown dropDown_hover">
+                        <a href="javascript:;" class="dropDown_A"><i class="Hui-iconfont">&#xe600;</i> 新增 <i
+                                class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li>
+                                <a href="javascript:;" onclick="article_add('添加资讯','article-add.html')"><i
+                                        class="Hui-iconfont">&#xe616;</i> 资讯</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" onclick="picture_add('添加资讯','picture-add.html')"><i
+                                        class="Hui-iconfont">&#xe613;</i> 图片</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" onclick="product_add('添加资讯','product-add.html')"><i
+                                        class="Hui-iconfont">&#xe620;</i> 产品</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" onclick="member_add('添加用户','member-add.html','','510')"><i
+                                        class="Hui-iconfont">&#xe60d;</i> 用户</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl">
+                    <li>超级管理员</li>
+                    <li class="dropDown dropDown_hover">
+                        <a href="#" class="dropDown_A">admin <i class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li><a href="javascript:;" onClick="myselfinfo()">个人信息</a></li>
+                            <li>
+                                <a href="#">切换账户</a>
+                            </li>
+                            <li>
+                                <a href="#">退出</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="Hui-msg">
+                        <a href="#" title="消息">
+                            <span class="badge badge-danger">1</span>
+                            <i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a>
+                    </li>
+                    <li id="Hui-skin" class="dropDown right dropDown_hover">
+                        <a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont"
+                                                                                style="font-size:18px">&#xe62a;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li>
+                                <a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="blue" title="蓝色">蓝色</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="green" title="绿色">绿色</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="red" title="红色">红色</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" data-val="yellow" title="黄色">黄色</a>
+                            </li>
+                            <li><a href="javascript:;" data-val="orange" title="橙色">橙色</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--/_header 作为公共模版分离出去-->
+
+<!--_menu 作为公共模版分离出去-->
+<aside class="Hui-aside">
+    <div class="menu_dropdown bk_2">
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont">&#xe616;</i> 控制台首页<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li>
+                        <a href="reception.html" title="资讯管理">我的接待</a>
+                    </li>
+                    <li>
+                        <a href="servciesGeneral.html" title="在线客服概况">在线客服概况</a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-picture">
+            <dt><i class="Hui-iconfont">&#xe613;</i> 知识库<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="issueManagement.html" title="知识库">问题管理</a></li>
+                    <!-- <!--<li><a href="intelligentLearning.html" title="知识库">智能学习</a></li>-->
+                    <li><a href="unknownLearning.html" title="知识库">未知问题学习</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-product">
+            <dt><i class="Hui-iconfont">&#xe620;</i> 客服<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="onlineService.html" title="在线客服">在线客服</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-comments">
+            <dt><i class="Hui-iconfont">&#xe622;</i> 客户中心<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="customerList.html" title="客户列表">客户列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-member">
+            <dt><i class="Hui-iconfont">&#xe60d;</i> 统计<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="chatRecord.html" title="会话记录">会话记录</a></li>
+                    <li><a href="satisfaction.html" title="满意度评价">满意度评价</a></li>
+                    <li><a href="customeSource.html" title="访问统计">访问统计</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 机器人<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="robotReply.html" title="机器人回答">机器人回答</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-gaunggao">
+            <dt class="selected">
+                <i class="hui-bounce">&#xe61a;</i> 广告<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
+            </dt>
+            <dd style="display:block">
+                <ul>
+                    <li class="current"><a href="guanggao.html" title="广告详情">广告详情</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-tongji">
+            <dt>
+                <i class="Hui-iconfont">&#xe61a;</i> 设置<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i>
+            </dt>
+            <dd>
+                <ul>
+                    <li><a href="channelPc.html" title="桌面网站">桌面网站</a></li>
+                    <li><a href="channelWeChat.html" title="微信">微信</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <div class="dislpayArrow hidden-xs">
+        <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+</aside>
+<!--/_menu 作为公共模版分离出去-->
+
+<section class="Hui-article-box">
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 广告
+        <span class="c-gray en">&gt;</span>
+        广告详情
+        <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+           href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
+    </nav>
+    <div class="Hui-article">
+        <article class="cl pd-20">
+            <div class="text-c" style="text-align:left">
+                日期范围：
+                <input type="text" onfocus="WdatePicker({maxDate:'#F{$dp.$D(\'logmax\')||\'%y-%M-%d\'}'})" id="logmin"
+                       class="input-text Wdate" style="width:120px;">
+                -
+                <input type="text" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'logmin\')}',maxDate:'%y-%M-%d'})"
+                       id="logmax" class="input-text Wdate" style="width:120px;">
+                <button name="" id="" class="btn btn-success" type="submit"><i class="Hui-iconfont">&#xe665;</i> 查询
+                </button>
+            </div>
+
+        </article>
+        <div id="chart-contanier" style="height: 480px;width: 880px;margin-left: 80px"></div>
+<br><br><br><br><br>
+        <div class="panel panel-default mcis-panel ">
+            <div class="panel-body ">
+
+                <div class="panel mcis-title-panel ">
+                    <div class="panel-body mcis-title ">广告推送
+                        <button style="float:right;width: 94px; height: 26px; line-height: 26px;
+                    font-size: 14px; border-radius: 3px; text-align: center; cursor: pointer; color: #ed8f59; background-color:
+                    #fff; border: 1px solid #ed8f59; ">数据导出
+                        </button>
+                    </div>
+
+                    <div class="panel-body ">
+                        <div style="margin-bottom:30px ">
+                            <input class="input-text radius size-L " placeholder="搜索此分类的广告 " type="text ">
+
+                        </div>
+
+
+                        <table class="table table-border table-bordered table-hover table-bg table-sort">
+                            <thead>
+                            <tr class="text-c">
+                                <th width="25"><input type="checkbox" name="" value=""></th>
+                                <th width="80">序号</th>
+                                <th>广告类型</th>
+                                <th>投放时间</th>
+                                <th>投放用户</th>
+                                <th>用户手机</th>
+                                <th>用户邮箱</th>
+                                <th>用户是否点击</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="text-c">
+                                <td><input type="checkbox" value="1" name=""></td>
+                                <td>1</td>
+                                <td>类型1</td>
+                                <td>23/07/2017 18:03:22</td>
+                                <td>小红</td>
+                                <td>13888889999</td>
+                                <td>123123@qq.com</td>
+                                <td>是</td>
+                                <td class="td-manage"><a style="text-decoration:none"
+                                                         onClick="member_stop(this,'10001')" href="javascript:;"
+                                                         title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a
+                                        title="编辑" href="javascript:;"
+                                        onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a
+                                        style="text-decoration:none" class="ml-5"
+                                        onClick="change_password('修改密码','change-password.html','10001','600','270')"
+                                        href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a
+                                        title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                            </tr>
+                            <tr class="text-c">
+                                <td><input type="checkbox" value="1" name=""></td>
+                                <td>2</td>
+                                <td>类型2</td>
+                                <td>24/07/2017 19:04:28</td>
+                                <td>小明</td>
+                                <td>13888889999</td>
+                                <td>123123@qq.com</td>
+                                <td>否</td>
+                                <td class="td-manage"><a style="text-decoration:none"
+                                                         onClick="member_stop(this,'10001')" href="javascript:;"
+                                                         title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a
+                                        title="编辑" href="javascript:;"
+                                        onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a
+                                        style="text-decoration:none" class="ml-5"
+                                        onClick="change_password('修改密码','change-password.html','10001','600','270')"
+                                        href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a
+                                        title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                            </tr>
+                            <tr class="text-c">
+                                <td><input type="checkbox" value="1" name=""></td>
+                                <td>3</td>
+                                <td>类型3</td>
+                                <td>01/08/2017 22:06:28</td>
+                                <td>小强</td>
+                                <td>13888889999</td>
+                                <td>123123@qq.com</td>
+                                <td>是</td>
+                                <td class="td-manage"><a style="text-decoration:none"
+                                                         onClick="member_stop(this,'10001')" href="javascript:;"
+                                                         title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a
+                                        title="编辑" href="javascript:;"
+                                        onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a
+                                        style="text-decoration:none" class="ml-5"
+                                        onClick="change_password('修改密码','change-password.html','10001','600','270')"
+                                        href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a
+                                        title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                            </tr>
+                            <tr class="text-c">
+                                <td><input type="checkbox" value="1" name=""></td>
+                                <td>4</td>
+                                <td>类型4</td>
+                                <td>23/07/2017 20:05:22</td>
+                                <td>小黑</td>
+                                <td>13888889999</td>
+                                <td>123123@qq.com</td>
+                                <td>是</td>
+                                <td class="td-manage"><a style="text-decoration:none"
+                                                         onClick="member_stop(this,'10001')" href="javascript:;"
+                                                         title="停用"><i class="Hui-iconfont">&#xe631;</i></a> <a
+                                        title="编辑" href="javascript:;"
+                                        onclick="member_edit('编辑','member-add.html','4','','510')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> <a
+                                        style="text-decoration:none" class="ml-5"
+                                        onClick="change_password('修改密码','change-password.html','10001','600','270')"
+                                        href="javascript:;" title="修改密码"><i class="Hui-iconfont">&#xe63f;</i></a> <a
+                                        title="删除" href="javascript:;" onclick="member_del(this,'1')" class="ml-5"
+                                        style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                            </tr>
+
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="lib/echarts/3.4.0/echarts.common.min.js"></script>
+<script type="text/javascript">
+    var chart = echarts.init(document.getElementById('chart-contanier'));
+    var option = {
+        title: {
+            text: '广告投放频率（次/h）'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['0', '7月26', '7月27', '7月28', '7月29', '7月30', '7月31', '8月1', '8月2', '8月3']
+        },
+        yAxis: {
+            type: 'value'
+        },
+        formatter: {},
+
+        series: [
+            {
+                name: '广告投放频率（次/h）',
+                type: 'bar',
+                data: [0, 12, 18, 10, 8, 13, 15, 11, 10, 9, 14],
+                itemStyle: {
+                    //通常情况下：
+                    normal: {
+                        //每个柱子的颜色即为colorList数组里的每一项，如果柱子数目多于colorList的长度，则柱子颜色循环使用该数组
+                        color: function (params) {
+                            var colorList = ['rgb(164,205,238)', 'rgb(42,170,227)', 'rgb(25,46,94)', 'rgb(195,229,235)','rgb(10,29,255)','rgb(121,47,255)','rgb(157,35,255)','rgb(42,123,255)','rgb(102,104,255)','rgb(10,29,255)','rgb(196,103,255)','rgb(10,29,255)','rgb(25,206,255)'];
+                            return colorList[params.dataIndex];
+                        }
+                    }
+                },
+            },
+            {
+                name: '广告投放频率（次/h）',
+                type: 'line',
+                data: [0, 12, 18, 10, 8, 13, 15, 11, 10, 9, 14]
+            },
+
+        ]
+    };
+
+    chart.setOption(option)
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
 </body>
 </html>

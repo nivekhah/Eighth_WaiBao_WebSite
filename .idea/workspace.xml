@@ -3,50 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="e5f923cf-4d10-4875-ad6c-170ca9b0eeaf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_menu.html" afterPath="$PROJECT_DIR$/_menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-list.html" afterPath="$PROJECT_DIR$/admin-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-permission.html" afterPath="$PROJECT_DIR$/admin-permission.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin-role.html" afterPath="$PROJECT_DIR$/admin-role.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article-list.html" afterPath="$PROJECT_DIR$/article-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channelPc.html" afterPath="$PROJECT_DIR$/channelPc.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channelWeChat.html" afterPath="$PROJECT_DIR$/channelWeChat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-1.html" afterPath="$PROJECT_DIR$/charts-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-2.html" afterPath="$PROJECT_DIR$/charts-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-3.html" afterPath="$PROJECT_DIR$/charts-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-4.html" afterPath="$PROJECT_DIR$/charts-4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-5.html" afterPath="$PROJECT_DIR$/charts-5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-6.html" afterPath="$PROJECT_DIR$/charts-6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charts-7.html" afterPath="$PROJECT_DIR$/charts-7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatRecord.html" afterPath="$PROJECT_DIR$/chatRecord.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeing.html" afterPath="$PROJECT_DIR$/codeing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customeSource.html" afterPath="$PROJECT_DIR$/customeSource.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customerList.html" afterPath="$PROJECT_DIR$/customerList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feedback-list.html" afterPath="$PROJECT_DIR$/feedback-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/guanggao.html" afterPath="$PROJECT_DIR$/guanggao.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexhoutai.html" afterPath="$PROJECT_DIR$/indexhoutai.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intelligentLearning.html" afterPath="$PROJECT_DIR$/intelligentLearning.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/issueManagement.html" afterPath="$PROJECT_DIR$/issueManagement.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-del.html" afterPath="$PROJECT_DIR$/member-del.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-list.html" afterPath="$PROJECT_DIR$/member-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-record-browse.html" afterPath="$PROJECT_DIR$/member-record-browse.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-record-download.html" afterPath="$PROJECT_DIR$/member-record-download.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/member-record-share.html" afterPath="$PROJECT_DIR$/member-record-share.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/onlineService.html" afterPath="$PROJECT_DIR$/onlineService.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/picture-list.html" afterPath="$PROJECT_DIR$/picture-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-brand.html" afterPath="$PROJECT_DIR$/product-brand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-category.html" afterPath="$PROJECT_DIR$/product-category.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-list.html" afterPath="$PROJECT_DIR$/product-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reception.html" afterPath="$PROJECT_DIR$/reception.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robotReply.html" afterPath="$PROJECT_DIR$/robotReply.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/satisfaction.html" afterPath="$PROJECT_DIR$/satisfaction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servciesGeneral.html" afterPath="$PROJECT_DIR$/servciesGeneral.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system-base.html" afterPath="$PROJECT_DIR$/system-base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system-category-add.html" afterPath="$PROJECT_DIR$/system-category-add.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system-category.html" afterPath="$PROJECT_DIR$/system-category.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system-data.html" afterPath="$PROJECT_DIR$/system-data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system-log.html" afterPath="$PROJECT_DIR$/system-log.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system-shielding.html" afterPath="$PROJECT_DIR$/system-shielding.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unknownLearning.html" afterPath="$PROJECT_DIR$/unknownLearning.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,38 +41,24 @@
       <file leaf-file-name="servciesGeneral.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servciesGeneral.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9407">
+            <state relative-caret-position="23">
               <caret line="409" column="27" lean-forward="false" selection-start-line="409" selection-start-column="16" selection-end-line="409" selection-end-column="27" />
               <folding>
-                <marker date="1501773801473" expanded="false" signature="11777:11802" ph="..." />
-                <marker date="1501773801473" expanded="false" signature="11873:11898" ph="..." />
-                <marker date="1501773801473" expanded="false" signature="17508:17540" ph="..." />
+                <marker date="1501781978151" expanded="false" signature="11777:11802" ph="..." />
+                <marker date="1501781978151" expanded="false" signature="11873:11898" ph="..." />
+                <marker date="1501781978151" expanded="false" signature="17508:17540" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customerList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customerList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5405">
-              <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
-              <folding>
-                <marker date="1501773800195" expanded="true" signature="15785:15805" ph="..." />
-                <marker date="1501773800195" expanded="true" signature="15894:15902" ph="&amp;##xe6e1;" />
-                <marker date="1501773800195" expanded="true" signature="16295:16315" ph="..." />
-                <marker date="1501773800195" expanded="true" signature="16403:16411" ph="&amp;##xe631;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robotReply.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="robotReply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robotReply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="212" column="68" lean-forward="false" selection-start-line="212" selection-start-column="68" selection-end-line="212" selection-end-column="68" />
+            <state relative-caret-position="148">
+              <caret line="517" column="14" lean-forward="true" selection-start-line="298" selection-start-column="7" selection-end-line="517" selection-end-column="14" />
               <folding>
+                <element signature="n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -137,7 +103,7 @@
       <file leaf-file-name="chatRecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatRecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7383">
+            <state relative-caret-position="23">
               <caret line="338" column="37" lean-forward="false" selection-start-line="338" selection-start-column="37" selection-end-line="338" selection-end-column="37" />
               <folding>
                 <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -168,39 +134,7 @@
                 <element signature="n#style#0;n#a#1;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#3;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1501773800437" expanded="false" signature="21146:21190" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="satisfaction.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/satisfaction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5612">
-              <caret line="244" column="124" lean-forward="false" selection-start-line="244" selection-start-column="124" selection-end-line="244" selection-end-column="124" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#u#0;n#td#2;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#td#11;n#tr#0;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#u#0;n#td#2;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#11;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#11;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#11;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#td#11;n#tr#1;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#u#0;n#td#2;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#11;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#11;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#11;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#td#11;n#tr#2;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#u#0;n#td#2;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#td#11;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#td#11;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#td#11;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#3;n#td#11;n#tr#3;n#tbody#0;n#table#1;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1501781976985" expanded="false" signature="21146:21190" ph="..." />
               </folding>
             </state>
           </provider>
@@ -240,9 +174,47 @@
       <file leaf-file-name="guanggao.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guanggao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="117">
+              <caret line="331" column="56" lean-forward="false" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
+              <folding>
+                <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#1;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channelPc.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/channelPc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="164" column="112" lean-forward="true" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="112" />
+              <folding>
+                <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#1;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#2;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#3;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#4;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#6;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#7;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,34 +222,44 @@
       <file leaf-file-name="reception.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reception.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="185" column="338" lean-forward="true" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="338" />
+            <state relative-caret-position="240">
+              <caret line="179" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="346" selection-end-column="7" />
               <folding>
                 <element signature="n#dl#5;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1501773800577" expanded="false" signature="10966:10983" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="11060:11123" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="11243:11308" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="11389:11420" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="11555:11637" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="11778:11830" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="12142:12175" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="12773:12855" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="12996:13048" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="13360:13393" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="13529:13611" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="13752:13804" ph="..." />
-                <marker date="1501773800577" expanded="false" signature="14116:14149" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="10647:10664" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="10721:10784" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="10868:10933" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="10994:11025" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="11120:11202" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="11307:11359" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="11581:11614" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="12160:12242" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="12347:12399" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="12621:12654" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="12750:12832" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="12937:12989" ph="..." />
+                <marker date="1501781977100" expanded="false" signature="13211:13244" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/chat/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/404.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
+              <caret line="138" column="236" lean-forward="false" selection-start-line="138" selection-start-column="236" selection-end-line="138" selection-end-column="236" />
               <folding />
             </state>
           </provider>
@@ -305,12 +287,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>智能</find>
-      <find>智能学习</find>
-      <find>&lt;li&gt;&lt;a href=&quot;intelligentLearning.html&quot; title=&quot;知识库&quot;&gt;智能学习&lt;/a&gt;&lt;/li&gt;</find>
-      <find>team</find>
-      <find>1</find>
-      <find>head</find>
       <find>1&lt;</find>
       <find>convo</find>
       <find>chat-thread</find>
@@ -334,7 +310,13 @@
       <find>char-img</find>
       <find>menu-tongji</find>
       <find>&lt;dl id=&quot;menu-tongji&quot;&gt;</find>
+      <find>--&gt;</find>
+      <find>问题</find>
+      <find>热点业务问题</find>
+      <find>我的接待</find>
       <find>机器人</find>
+      <find>广告设置</find>
+      <find>热点</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -344,6 +326,7 @@
       <replace>even</replace>
       <replace>odd</replace>
       <replace>&lt;dl id=&quot;menu-gaunggao&quot;&gt;            &lt;dt&gt;&lt;i class=&quot;hui-bounce&quot;&gt;&amp;#xe61a;&lt;/i&gt; 广告&lt;i class=&quot;Hui-iconfont menu_dropdown-arrow&quot;&gt;&amp;#xe6d5;&lt;/i&gt;&lt;/dt&gt;            &lt;dd&gt;                &lt;ul&gt;                    &lt;li&gt;&lt;a href=&quot;guanggao.html&quot; title=&quot;广告设置&quot;&gt;广告设置&lt;/a&gt;&lt;/li&gt;                   &lt;/ul&gt;            &lt;/dd&gt;        &lt;/dl&gt;        &lt;dl id=&quot;menu-tongji&quot;&gt;</replace>
+      <replace>广告详情</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\programing\github\waibao\waibao.github.io\static\h-ui.admin</dir>
@@ -374,7 +357,6 @@
         <option value="$PROJECT_DIR$/admin-permission.html" />
         <option value="$PROJECT_DIR$/admin-role.html" />
         <option value="$PROJECT_DIR$/article-list.html" />
-        <option value="$PROJECT_DIR$/channelPc.html" />
         <option value="$PROJECT_DIR$/issueManagement.html" />
         <option value="$PROJECT_DIR$/unknownLearning.html" />
         <option value="$PROJECT_DIR$/onlineService.html" />
@@ -385,11 +367,12 @@
         <option value="$PROJECT_DIR$/customerList.html" />
         <option value="$PROJECT_DIR$/chatRecord.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/guanggao.html" />
-        <option value="$PROJECT_DIR$/reception.html" />
-        <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/_menu.html" />
+        <option value="$PROJECT_DIR$/reception.html" />
+        <option value="$PROJECT_DIR$/channelPc.html" />
         <option value="$PROJECT_DIR$/robotReply.html" />
+        <option value="$PROJECT_DIR$/guanggao.html" />
+        <option value="$PROJECT_DIR$/404.html" />
       </list>
     </option>
   </component>
@@ -400,10 +383,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="448" />
+    <option name="y" value="59" />
+    <option name="width" value="1920" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -523,7 +506,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="robotReply&#9;FILE&#9;file://E:/programing/github/waibao/waibao.github.io/robotReply.html&#10;reception.html&#9;FILE&#9;file://E:/programing/github/waibao/waibao.github.io/reception.html" />
+    <property name="SearchEverywhereHistoryKey" value="color&#9;ACTION&#9;ShowColorPicker&#10;css&#9;FILE&#9;file://E:/programing/github/waibao/waibao.github.io/images/chat/style.css&#10;robotReply&#9;FILE&#9;file://E:/programing/github/waibao/waibao.github.io/robotReply.html&#10;reception.html&#9;FILE&#9;file://E:/programing/github/waibao/waibao.github.io/reception.html" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -1067,7 +1050,7 @@
       <workItem from="1501519691944" duration="1390000" />
       <workItem from="1501595231653" duration="2988000" />
       <workItem from="1501644198332" duration="1544000" />
-      <workItem from="1501773264089" duration="732000" />
+      <workItem from="1501773264089" duration="4656000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1501330944965</created>
@@ -1087,10 +1070,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60103000" />
+    <option name="totallyTimeSpent" value="64027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="448" y="59" width="1920" height="1030" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1103,10 +1087,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33522084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3250283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1017341" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2248104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1393,13 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/channelPc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="132" column="24" lean-forward="false" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/article-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7384">
@@ -1437,10 +1414,10 @@
             <element signature="n#table#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1501773800676" expanded="false" signature="11186:11218" ph="..." />
-            <marker date="1501773800676" expanded="false" signature="16287:16319" ph="..." />
-            <marker date="1501773800676" expanded="false" signature="21232:21264" ph="..." />
-            <marker date="1501773800676" expanded="false" signature="26201:26233" ph="..." />
+            <marker date="1501781977133" expanded="false" signature="11186:11218" ph="..." />
+            <marker date="1501781977133" expanded="false" signature="16287:16319" ph="..." />
+            <marker date="1501781977133" expanded="false" signature="21232:21264" ph="..." />
+            <marker date="1501781977133" expanded="false" signature="26201:26233" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1454,61 +1431,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/logo22.png" />
-    <entry file="file://$PROJECT_DIR$/images/chat/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customerList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5405">
           <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
           <folding>
-            <marker date="1501773800195" expanded="true" signature="15785:15805" ph="..." />
-            <marker date="1501773800195" expanded="true" signature="15894:15902" ph="&amp;##xe6e1;" />
-            <marker date="1501773800195" expanded="true" signature="16295:16315" ph="..." />
-            <marker date="1501773800195" expanded="true" signature="16403:16411" ph="&amp;##xe631;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatRecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7383">
-          <caret line="338" column="37" lean-forward="false" selection-start-line="338" selection-start-column="37" selection-end-line="338" selection-end-column="37" />
-          <folding>
-            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501773800437" expanded="false" signature="21146:21190" ph="..." />
+            <marker date="1501781976703" expanded="true" signature="15785:15805" ph="..." />
+            <marker date="1501781976703" expanded="true" signature="15894:15902" ph="&amp;##xe6e1;" />
+            <marker date="1501781976703" expanded="true" signature="16295:16315" ph="..." />
+            <marker date="1501781976703" expanded="true" signature="16403:16411" ph="&amp;##xe631;" />
           </folding>
         </state>
       </provider>
@@ -1543,18 +1474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servciesGeneral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9407">
-          <caret line="409" column="27" lean-forward="false" selection-start-line="409" selection-start-column="16" selection-end-line="409" selection-end-column="27" />
-          <folding>
-            <marker date="1501773801473" expanded="false" signature="11777:11802" ph="..." />
-            <marker date="1501773801473" expanded="false" signature="11873:11898" ph="..." />
-            <marker date="1501773801473" expanded="false" signature="17508:17540" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -1584,46 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guanggao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reception.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="185" column="338" lean-forward="true" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="338" />
-          <folding>
-            <element signature="n#dl#5;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1501773800577" expanded="false" signature="10966:10983" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="11060:11123" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="11243:11308" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="11389:11420" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="11555:11637" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="11778:11830" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="12142:12175" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="12773:12855" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="12996:13048" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="13360:13393" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="13529:13611" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="13752:13804" ph="..." />
-            <marker date="1501773800577" expanded="false" signature="14116:14149" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1632,11 +1511,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reception.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="179" column="50" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="346" selection-end-column="7" />
+          <folding>
+            <element signature="n#dl#5;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1501781977100" expanded="false" signature="10647:10664" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="10721:10784" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="10868:10933" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="10994:11025" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="11120:11202" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="11307:11359" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="11581:11614" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="12160:12242" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="12347:12399" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="12621:12654" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="12750:12832" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="12937:12989" ph="..." />
+            <marker date="1501781977100" expanded="false" signature="13211:13244" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channelPc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="164" column="112" lean-forward="true" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="112" />
+          <folding>
+            <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#1;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#2;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#3;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#4;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#6;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#7;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="338" column="37" lean-forward="false" selection-start-line="338" selection-start-column="37" selection-end-line="338" selection-end-column="37" />
+          <folding>
+            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#9;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#9;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#9;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#9;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#u#0;n#td#2;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#9;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1501781976985" expanded="false" signature="21146:21190" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servciesGeneral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="409" column="27" lean-forward="false" selection-start-line="409" selection-start-column="16" selection-end-line="409" selection-end-column="27" />
+          <folding>
+            <marker date="1501781978151" expanded="false" signature="11777:11802" ph="..." />
+            <marker date="1501781978151" expanded="false" signature="11873:11898" ph="..." />
+            <marker date="1501781978151" expanded="false" signature="17508:17540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/chat/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robotReply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="212" column="68" lean-forward="false" selection-start-line="212" selection-start-column="68" selection-end-line="212" selection-end-column="68" />
+        <state relative-caret-position="148">
+          <caret line="517" column="14" lean-forward="true" selection-start-line="298" selection-start-column="7" selection-end-line="517" selection-end-column="14" />
           <folding>
+            <element signature="n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1674,6 +1652,42 @@
             <element signature="n#style#0;n#a#2;n#td#6;n#tr#8;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#3;n#td#6;n#tr#8;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guanggao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="331" column="56" lean-forward="false" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
+          <folding>
+            <element signature="n#dl#0;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#dl#1;n#div#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#8;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#8;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#td#8;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="138" column="236" lean-forward="false" selection-start-line="138" selection-start-column="236" selection-end-line="138" selection-end-column="236" />
+          <folding />
         </state>
       </provider>
     </entry>
